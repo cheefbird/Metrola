@@ -18,6 +18,7 @@
 		061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD742C44A37000CEDF2F /* StationMapView.swift */; };
 		061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD782C44A39600CEDF2F /* Helpers.swift */; };
 		061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD7A2C44A3BA00CEDF2F /* README.md */; };
+		065FDD552C45C3CE0010487C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 065FDD542C45C3CE0010487C /* Alamofire */; };
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
@@ -46,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065FDD552C45C3CE0010487C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +75,7 @@
 			children = (
 				061DCD572C44A13100CEDF2F /* MetrolaApp.swift */,
 				061DCD692C44A2F400CEDF2F /* RootView.swift */,
+				065FDD562C45C3E50010487C /* Network */,
 				061DCD702C44A36400CEDF2F /* Model */,
 				061DCD752C44A37000CEDF2F /* Map View */,
 				061DCD6B2C44A34000CEDF2F /* Support */,
@@ -121,6 +124,13 @@
 			path = "Map View";
 			sourceTree = "<group>";
 		};
+		065FDD562C45C3E50010487C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +147,9 @@
 			dependencies = (
 			);
 			name = Metrola;
+			packageProductDependencies = (
+				065FDD542C45C3CE0010487C /* Alamofire */,
+			);
 			productName = Metrola;
 			productReference = 061DCD542C44A13100CEDF2F /* Metrola.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +178,9 @@
 				Base,
 			);
 			mainGroup = 061DCD4B2C44A13100CEDF2F;
+			packageReferences = (
+				065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 061DCD552C44A13100CEDF2F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -410,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		065FDD542C45C3CE0010487C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 061DCD4C2C44A13100CEDF2F /* Project object */;
 }
