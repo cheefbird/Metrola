@@ -1,5 +1,5 @@
 //
-//  Stop.swift
+//  Station.swift
 //  metrola
 //
 //  Created by Francis Breidenbach on 7/13/24.
@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-struct Stop: Codable, Hashable, Identifiable {
+struct Station: Codable, Hashable, Identifiable {
     var id: String
     var name: String
     var code: Int

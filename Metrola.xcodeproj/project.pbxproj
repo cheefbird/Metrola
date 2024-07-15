@@ -13,7 +13,7 @@
 		061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD692C44A2F400CEDF2F /* RootView.swift */; };
 		061DCD6D2C44A34F00CEDF2F /* testStops.json in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD6C2C44A34F00CEDF2F /* testStops.json */; };
 		061DCD712C44A36400CEDF2F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD6E2C44A36400CEDF2F /* Line.swift */; };
-		061DCD722C44A36400CEDF2F /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD6F2C44A36400CEDF2F /* Stop.swift */; };
+		061DCD722C44A36400CEDF2F /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD6F2C44A36400CEDF2F /* Station.swift */; };
 		061DCD762C44A37000CEDF2F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD732C44A37000CEDF2F /* LocationManager.swift */; };
 		061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD742C44A37000CEDF2F /* StationMapView.swift */; };
 		061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD782C44A39600CEDF2F /* Helpers.swift */; };
@@ -29,7 +29,7 @@
 		061DCD692C44A2F400CEDF2F /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		061DCD6C2C44A34F00CEDF2F /* testStops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testStops.json; sourceTree = "<group>"; };
 		061DCD6E2C44A36400CEDF2F /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
-		061DCD6F2C44A36400CEDF2F /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		061DCD6F2C44A36400CEDF2F /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		061DCD732C44A37000CEDF2F /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		061DCD742C44A37000CEDF2F /* StationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationMapView.swift; sourceTree = "<group>"; };
 		061DCD782C44A39600CEDF2F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		061DCD702C44A36400CEDF2F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				061DCD6E2C44A36400CEDF2F /* Line.swift */,
-				061DCD6F2C44A36400CEDF2F /* Stop.swift */,
 				067D7D382C44AC130063734B /* AgencyKey.swift */,
+				061DCD6E2C44A36400CEDF2F /* Line.swift */,
+				061DCD6F2C44A36400CEDF2F /* Station.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 				061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */,
 				061DCD762C44A37000CEDF2F /* LocationManager.swift in Sources */,
 				061DCD582C44A13100CEDF2F /* MetrolaApp.swift in Sources */,
-				061DCD722C44A36400CEDF2F /* Stop.swift in Sources */,
+				061DCD722C44A36400CEDF2F /* Station.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

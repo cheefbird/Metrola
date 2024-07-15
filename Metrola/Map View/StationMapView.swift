@@ -25,7 +25,7 @@ struct StationMapView: View {
     @State private var visibleRegion: MKCoordinateRegion?
     @State private var selectedStation: MKMapItem?
 
-    let stops = Bundle.main.decode([Stop].self, from: "testStops.json")
+    let stops = Bundle.main.decode([Station].self, from: "testStops.json")
 
     var body: some View {
         Map(position: $position, selection: $selectedStation) {
