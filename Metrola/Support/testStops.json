@@ -1,254 +1,296 @@
 [
-    {
-        "id": "8028",
-        "name": "Sunset / Alvarado",
-        "code": 8028,
-        "lat": 34.077443,
-        "lon": -118.263769
-    },
-    {
-        "id": "11846",
-        "name": "Alvarado / Kent",
-        "code": 11846,
-        "lat": 34.074348,
-        "lon": -118.265638
-    },
-    {
-        "id": "10995",
-        "name": "Alvarado / Hollywood Fwy",
-        "code": 10995,
-        "lat": 34.072276,
-        "lon": -118.266909
-    },
-    {
-        "id": "11848",
-        "name": "Alvarado / Temple",
-        "code": 11848,
-        "lat": 34.070479,
-        "lon": -118.268069
-    },
-    {
-        "id": "5159",
-        "name": "Alvarado / Beverly",
-        "code": 5159,
-        "lat": 34.0665,
-        "lon": -118.270595
-    },
-    {
-        "id": "13111",
-        "name": "Alvarado / Valley",
-        "code": 13111,
-        "lat": 34.064997,
-        "lon": -118.271555
-    },
-    {
-        "id": "15627",
-        "name": "Alvarado / 3rd",
-        "code": 15627,
-        "lat": 34.063189,
-        "lon": -118.272718
-    },
-    {
-        "id": "13119",
-        "name": "Alvarado / Maryland",
-        "code": 13119,
-        "lat": 34.061469,
-        "lon": -118.273812
-    },
-    {
-        "id": "13115",
-        "name": "Alvarado / 6th",
-        "code": 13115,
-        "lat": 34.059749,
-        "lon": -118.274906
-    },
-    {
-        "id": "13122",
-        "name": "Alvarado / Wilshire",
-        "code": 13122,
-        "lat": 34.057713,
-        "lon": -118.276203
-    },
-    {
-        "id": "13116",
-        "name": "Alvarado / 7th",
-        "code": 13116,
-        "lat": 34.056687,
-        "lon": -118.27685
-    },
-    {
-        "id": "13117",
-        "name": "Alvarado / 8th",
-        "code": 13117,
-        "lat": 34.05509,
-        "lon": -118.277865
-    },
-    {
-        "id": "13118",
-        "name": "Alvarado / James M Wood",
-        "code": 13118,
-        "lat": 34.053566,
-        "lon": -118.278834
-    },
-    {
-        "id": "13120",
-        "name": "Alvarado / Olympic",
-        "code": 13120,
-        "lat": 34.051959,
-        "lon": -118.279862
-    },
-    {
-        "id": "13112",
-        "name": "Alvarado / 11th",
-        "code": 13112,
-        "lat": 34.050456,
-        "lon": -118.280817
-    },
-    {
-        "id": "13113",
-        "name": "Alvarado / 12th",
-        "code": 13113,
-        "lat": 34.04897,
-        "lon": -118.281766
-    },
-    {
-        "id": "13121",
-        "name": "Alvarado / Pico",
-        "code": 13121,
-        "lat": 34.047468,
-        "lon": -118.282728
-    },
-    {
-        "id": "13110",
-        "name": "Alvarado / Hoover",
-        "code": 13110,
-        "lat": 34.045547,
-        "lon": -118.284026
-    },
-    {
-        "id": "15254",
-        "name": "Hoover / Venice",
-        "code": 15254,
-        "lat": 34.043977,
-        "lon": -118.284268
-    },
-    {
-        "id": "13607",
-        "name": "Hoover / 18th",
-        "code": 13607,
-        "lat": 34.041974,
-        "lon": -118.284271
-    },
-    {
-        "id": "13613",
-        "name": "Hoover / Washington",
-        "code": 13613,
-        "lat": 34.039671,
-        "lon": -118.284224
-    },
-    {
-        "id": "13606",
-        "name": "Hoover / Santa Monica Fwy",
-        "code": 13606,
-        "lat": 34.036723,
-        "lon": -118.284151
-    },
-    {
-        "id": "13608",
-        "name": "Hoover / 24th",
-        "code": 13608,
-        "lat": 34.034538,
-        "lon": -118.284134
-    },
-    {
-        "id": "13612",
-        "name": "Hoover / Adams",
-        "code": 13612,
-        "lat": 34.03143,
-        "lon": -118.284123
-    },
-    {
-        "id": "13609",
-        "name": "Hoover / 28th",
-        "code": 13609,
-        "lat": 34.029504,
-        "lon": -118.284097
-    },
-    {
-        "id": "13610",
-        "name": "Hoover / 30th",
-        "code": 13610,
-        "lat": 34.027122,
-        "lon": -118.284099
-    },
-    {
-        "id": "2085",
-        "name": "Hoover / 32nd",
-        "code": 2085,
-        "lat": 34.02505,
-        "lon": -118.284029
-    },
-    {
-        "id": "7759",
-        "name": "Jefferson / Hoover",
-        "code": 7759,
-        "lat": 34.023299,
-        "lon": -118.283393
-    },
-    {
-        "id": "7753",
-        "name": "Jefferson / Royal",
-        "code": 7753,
-        "lat": 34.022735,
-        "lon": -118.282133
-    },
-    {
-        "id": "13470",
-        "name": "Figueroa / Jefferson",
-        "code": 13470,
-        "lat": 34.021742,
-        "lon": -118.280262
-    },
-    {
-        "id": "10429",
-        "name": "Figueroa / USC McCarthy",
-        "code": 10429,
-        "lat": 34.020372,
-        "lon": -118.281135
-    },
-    {
-        "id": "13422",
-        "name": "Figueroa / Exposition",
-        "code": 13422,
-        "lat": 34.019194,
-        "lon": -118.28192
-    },
-    {
-        "id": "13424",
-        "name": "Figueroa / State",
-        "code": 13424,
-        "lat": 34.016268,
-        "lon": -118.282907
-    },
-    {
-        "id": "13437",
-        "name": "Figueroa / 39th",
-        "code": 13437,
-        "lat": 34.013767,
-        "lon": -118.282895
-    },
-    {
-        "id": "2738",
-        "name": "Martin Luther King Jr / Figueroa",
-        "code": 2738,
-        "lat": 34.010997,
-        "lon": -118.281992
-    },
-    {
-        "id": "2459",
-        "name": "Hill / Martin Luther King Jr",
-        "code": 2459,
-        "lat": 34.011487,
-        "lon": -118.280294
-    }
+  {
+    "id": "80101",
+    "name": "Downtown Long Beach Station",
+    "code": 80101,
+    "lat": 33.768071,
+    "lon": -118.192921
+  },
+  {
+    "id": "80102",
+    "name": "Pacific Ave Station",
+    "code": 80102,
+    "lat": 33.772258,
+    "lon": -118.1937
+  },
+  {
+    "id": "80105",
+    "name": "Anaheim Street Station",
+    "code": 80105,
+    "lat": 33.78183,
+    "lon": -118.189384
+  },
+  {
+    "id": "80106",
+    "name": "Pacific Coast Hwy Station",
+    "code": 80106,
+    "lat": 33.78909,
+    "lon": -118.189382
+  },
+  {
+    "id": "80107",
+    "name": "Willow Street Station",
+    "code": 80107,
+    "lat": 33.807079,
+    "lon": -118.189834
+  },
+  {
+    "id": "80108",
+    "name": "Wardlow Station",
+    "code": 80108,
+    "lat": 33.819865,
+    "lon": -118.19609
+  },
+  {
+    "id": "80109",
+    "name": "Del Amo Station",
+    "code": 80109,
+    "lat": 33.848222,
+    "lon": -118.211017
+  },
+  {
+    "id": "80110",
+    "name": "Artesia Station",
+    "code": 80110,
+    "lat": 33.876082,
+    "lon": -118.222503
+  },
+  {
+    "id": "80111",
+    "name": "Compton Station",
+    "code": 80111,
+    "lat": 33.89749,
+    "lon": -118.224249
+  },
+  {
+    "id": "80112",
+    "name": "Willowbrook - Rosa Parks Station - Metro A-Line",
+    "code": 80112,
+    "lat": 33.928048,
+    "lon": -118.237555
+  },
+  {
+    "id": "80113",
+    "name": "103rd Street / Watts Towers  Station",
+    "code": 80113,
+    "lat": 33.94222,
+    "lon": -118.243159
+  },
+  {
+    "id": "80114",
+    "name": "Firestone Station",
+    "code": 80114,
+    "lat": 33.959611,
+    "lon": -118.243205
+  },
+  {
+    "id": "80115",
+    "name": "Florence Station",
+    "code": 80115,
+    "lat": 33.97374,
+    "lon": -118.243271
+  },
+  {
+    "id": "80116",
+    "name": "Slauson Station",
+    "code": 80116,
+    "lat": 33.98876,
+    "lon": -118.243398
+  },
+  {
+    "id": "80117",
+    "name": "Vernon Station",
+    "code": 80117,
+    "lat": 34.00292,
+    "lon": -118.243303
+  },
+  {
+    "id": "80118",
+    "name": "Washington Station",
+    "code": 80118,
+    "lat": 34.01965,
+    "lon": -118.243084
+  },
+  {
+    "id": "80119",
+    "name": "San Pedro Street Station",
+    "code": 80119,
+    "lat": 34.026807,
+    "lon": -118.255505
+  },
+  {
+    "id": "80120",
+    "name": "Grand / LATTC Station",
+    "code": 80120,
+    "lat": 34.033155,
+    "lon": -118.269333
+  },
+  {
+    "id": "80121",
+    "name": "Pico Station",
+    "code": 80121,
+    "lat": 34.040735,
+    "lon": -118.266118
+  },
+  {
+    "id": "80122",
+    "name": "7th Street / Metro Center Station - Metro A & E Lines",
+    "code": 80122,
+    "lat": 34.04861,
+    "lon": -118.258822
+  },
+  {
+    "id": "81401",
+    "name": "Grand Ave Arts / Bunker Hill Station",
+    "code": 81401,
+    "lat": 34.05472448,
+    "lon": -118.2515307
+  },
+  {
+    "id": "81402",
+    "name": "Historic Broadway Station",
+    "code": 81402,
+    "lat": 34.05215607,
+    "lon": -118.2463211
+  },
+  {
+    "id": "81403",
+    "name": "Little Tokyo / Arts District Station",
+    "code": 81403,
+    "lat": 34.04884524,
+    "lon": -118.2387567
+  },
+  {
+    "id": "80409",
+    "name": "Union Station - Metro A-Line",
+    "code": 80409,
+    "lat": 34.05745,
+    "lon": -118.23442
+  },
+  {
+    "id": "80410",
+    "name": "Chinatown Station",
+    "code": 80410,
+    "lat": 34.063861,
+    "lon": -118.23584
+  },
+  {
+    "id": "80411",
+    "name": "Lincoln Heights / Cypress Park Station",
+    "code": 80411,
+    "lat": 34.080949,
+    "lon": -118.220429
+  },
+  {
+    "id": "80412",
+    "name": "Heritage Square / Arroyo Station",
+    "code": 80412,
+    "lat": 34.087227,
+    "lon": -118.213213
+  },
+  {
+    "id": "80413",
+    "name": "Southwest Museum Station",
+    "code": 80413,
+    "lat": 34.098243,
+    "lon": -118.206712
+  },
+  {
+    "id": "80414",
+    "name": "Highland Park Station",
+    "code": 80414,
+    "lat": 34.111179,
+    "lon": -118.192606
+  },
+  {
+    "id": "80415",
+    "name": "South Pasadena Station",
+    "code": 80415,
+    "lat": 34.115186,
+    "lon": -118.157886
+  },
+  {
+    "id": "80416",
+    "name": "Fillmore Station",
+    "code": 80416,
+    "lat": 34.133521,
+    "lon": -118.148126
+  },
+  {
+    "id": "80417",
+    "name": "Del Mar Station",
+    "code": 80417,
+    "lat": 34.14191,
+    "lon": -118.148214
+  },
+  {
+    "id": "80418",
+    "name": "Memorial Park Station",
+    "code": 80418,
+    "lat": 34.148356,
+    "lon": -118.147512
+  },
+  {
+    "id": "80419",
+    "name": "Lake Station",
+    "code": 80419,
+    "lat": 34.151806,
+    "lon": -118.13139
+  },
+  {
+    "id": "80420",
+    "name": "Allen Station",
+    "code": 80420,
+    "lat": 34.152417,
+    "lon": -118.114348
+  },
+  {
+    "id": "80421",
+    "name": "Sierra Madre Villa Station",
+    "code": 80421,
+    "lat": 34.147752,
+    "lon": -118.081212
+  },
+  {
+    "id": "80422",
+    "name": "Arcadia Station",
+    "code": 80422,
+    "lat": 34.14286,
+    "lon": -118.029199
+  },
+  {
+    "id": "80423",
+    "name": "Monrovia Station",
+    "code": 80423,
+    "lat": 34.133155,
+    "lon": -118.003473
+  },
+  {
+    "id": "80424",
+    "name": "Duarte / City of Hope Station",
+    "code": 80424,
+    "lat": 34.132518,
+    "lon": -117.96768
+  },
+  {
+    "id": "80425",
+    "name": "Irwindale Station",
+    "code": 80425,
+    "lat": 34.129048,
+    "lon": -117.932506
+  },
+  {
+    "id": "80426",
+    "name": "Azusa Downtown Station",
+    "code": 80426,
+    "lat": 34.135863,
+    "lon": -117.906631
+  },
+  {
+    "id": "80427",
+    "name": "APU / Citrus College Station",
+    "code": 80427,
+    "lat": 34.136814,
+    "lon": -117.891636
+  }
 ]
