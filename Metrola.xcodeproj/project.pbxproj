@@ -124,8 +124,8 @@
 		061DCD6B2C44A34000CEDF2F /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				061DCD782C44A39600CEDF2F /* Helpers.swift */,
 				061DCD6C2C44A34F00CEDF2F /* testStops.json */,
+				061DCD782C44A39600CEDF2F /* Helpers.swift */,
 				065FDD682C45D6360010487C /* CodeNotes.swift */,
 			);
 			path = Support;

@@ -21,10 +21,18 @@ enum MetroNetRouter: URLRequestConvertible {
         return "info/lametro-rail/routes"
     }
     
+    
+    
     func asURLRequest() throws -> URLRequest {
         let url = baseURL.appendingPathComponent(path)
         var request = URLRequest(url: url)
         request.method = method
+        
+        let headers: HTTPHeaders = [
+            "Accept": "application/json",
+            "Authorization": Swiftly.key.rawValue
+        ]
+        request.headers = headers
         
         return request
     }
