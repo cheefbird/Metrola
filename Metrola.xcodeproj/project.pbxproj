@@ -18,6 +18,7 @@
 		061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD742C44A37000CEDF2F /* StationMapView.swift */; };
 		061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD782C44A39600CEDF2F /* Helpers.swift */; };
 		061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD7A2C44A3BA00CEDF2F /* README.md */; };
+		067D7D372C44A88D0063734B /* StationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D362C44A88D0063734B /* StationInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		061DCD742C44A37000CEDF2F /* StationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationMapView.swift; sourceTree = "<group>"; };
 		061DCD782C44A39600CEDF2F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		061DCD7A2C44A3BA00CEDF2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		067D7D362C44A88D0063734B /* StationInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		061DCD752C44A37000CEDF2F /* Map View */ = {
 			isa = PBXGroup;
 			children = (
+				067D7D362C44A88D0063734B /* StationInfoView.swift */,
 				061DCD732C44A37000CEDF2F /* LocationManager.swift */,
 				061DCD742C44A37000CEDF2F /* StationMapView.swift */,
 			);
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */,
+				067D7D372C44A88D0063734B /* StationInfoView.swift in Sources */,
 				061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */,
 				061DCD712C44A36400CEDF2F /* Line.swift in Sources */,
 				061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */,
