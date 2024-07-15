@@ -18,6 +18,7 @@
 		061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD742C44A37000CEDF2F /* StationMapView.swift */; };
 		061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD782C44A39600CEDF2F /* Helpers.swift */; };
 		061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD7A2C44A3BA00CEDF2F /* README.md */; };
+		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		061DCD742C44A37000CEDF2F /* StationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationMapView.swift; sourceTree = "<group>"; };
 		061DCD782C44A39600CEDF2F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		061DCD7A2C44A3BA00CEDF2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06C4BF392C44BE0E00197544 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				061DCD692C44A2F400CEDF2F /* RootView.swift */,
 				061DCD652C44A22E00CEDF2F /* Assets.xcassets */,
 				061DCD572C44A13100CEDF2F /* MetrolaApp.swift */,
+				06C4BF392C44BE0E00197544 /* testLocation.gpx */,
 				061DCD5D2C44A13200CEDF2F /* Preview Content */,
 			);
 			path = Metrola;
@@ -172,6 +175,7 @@
 			files = (
 				061DCD662C44A22E00CEDF2F /* Assets.xcassets in Resources */,
 				061DCD6D2C44A34F00CEDF2F /* testStops.json in Resources */,
+				06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */,
 				061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */,
 				061DCD5F2C44A13200CEDF2F /* Preview Assets.xcassets in Resources */,
 			);
@@ -327,6 +331,7 @@
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to allow showing nearby results on our map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,6 +361,7 @@
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to allow showing nearby results on our map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
