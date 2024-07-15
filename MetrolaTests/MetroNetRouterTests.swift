@@ -5,18 +5,13 @@
 //  Created by Francis Breidenbach on 7/15/24.
 //
 
-import XCTest
 @testable import Metrola
+import XCTest
 
 final class MetroNetRouterTests: XCTestCase {
+    override func setUpWithError() throws {}
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    override func tearDownWithError() throws {}
 
     func testRouterReuest() throws {
         let request = try! MetroNetRouter.getLines.asURLRequest()
@@ -29,5 +24,4 @@ final class MetroNetRouterTests: XCTestCase {
 //            // Put the code you want to measure the time of here.
 //        }
 //    }
-
 }
