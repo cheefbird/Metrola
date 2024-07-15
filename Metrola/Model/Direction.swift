@@ -10,7 +10,8 @@ import Foundation
 struct Direction {
     var id: String
     var title: String
-    var stops = [Station]()
+    var lineID: String
     var headsigns: [String]
+    var stations = [String]()
     
 }

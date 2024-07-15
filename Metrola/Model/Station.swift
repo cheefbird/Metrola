@@ -14,6 +14,8 @@ struct Station: Codable, Hashable, Identifiable {
     var code: Int
     var latitude: Double
     var longitude: Double
+    var lineID = ""
+    var directionID = ""
     
     enum CodingKeys: String, CodingKey {
         case id
