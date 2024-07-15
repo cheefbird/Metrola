@@ -13,5 +13,5 @@ struct Line {
     var name: String
     var color: String
     var type: String
-    var directions = [String: Any]()
+    var directions = [Direction]()
 }
