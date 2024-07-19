@@ -20,6 +20,7 @@
 		061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD7A2C44A3BA00CEDF2F /* README.md */; };
 		062592F32C4B1C3F00DF36E0 /* railStops.json in Resources */ = {isa = PBXBuildFile; fileRef = 062592F12C4B1C3F00DF36E0 /* railStops.json */; };
 		062592F42C4B1C3F00DF36E0 /* railLines.json in Resources */ = {isa = PBXBuildFile; fileRef = 062592F22C4B1C3F00DF36E0 /* railLines.json */; };
+		062592F72C4B22D600DF36E0 /* LineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062592F62C4B22D600DF36E0 /* LineListView.swift */; };
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
@@ -40,6 +41,7 @@
 		061DCD7A2C44A3BA00CEDF2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		062592F12C4B1C3F00DF36E0 /* railStops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = railStops.json; sourceTree = "<group>"; };
 		062592F22C4B1C3F00DF36E0 /* railLines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = railLines.json; sourceTree = "<group>"; };
+		062592F62C4B22D600DF36E0 /* LineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineListView.swift; sourceTree = "<group>"; };
 		067D7D382C44AC130063734B /* AgencyKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyKey.swift; sourceTree = "<group>"; };
 		06C4BF372C44B44B00197544 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		06C4BF392C44BE0E00197544 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				061DCD692C44A2F400CEDF2F /* RootView.swift */,
 				061DCD702C44A36400CEDF2F /* Model */,
 				061DCD752C44A37000CEDF2F /* Map View */,
+				062592F52C4B223200DF36E0 /* Station List View */,
 				061DCD6B2C44A34000CEDF2F /* Support */,
 				062592F02C4B1C2200DF36E0 /* Static Data */,
 				061DCD652C44A22E00CEDF2F /* Assets.xcassets */,
@@ -133,6 +136,14 @@
 				062592F12C4B1C3F00DF36E0 /* railStops.json */,
 			);
 			path = "Static Data";
+			sourceTree = "<group>";
+		};
+		062592F52C4B223200DF36E0 /* Station List View */ = {
+			isa = PBXGroup;
+			children = (
+				062592F62C4B22D600DF36E0 /* LineListView.swift */,
+			);
+			path = "Station List View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */,
 				067D7D392C44AC130063734B /* AgencyKey.swift in Sources */,
 				061DCD712C44A36400CEDF2F /* Line.swift in Sources */,
+				062592F72C4B22D600DF36E0 /* LineListView.swift in Sources */,
 				061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */,
 				061DCD762C44A37000CEDF2F /* LocationManager.swift in Sources */,
 				061DCD582C44A13100CEDF2F /* MetrolaApp.swift in Sources */,
