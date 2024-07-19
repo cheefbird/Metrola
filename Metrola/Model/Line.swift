@@ -8,10 +8,10 @@
 import Foundation
 
 /// Note: Appears as "route" from source API
-struct Line {
+struct Line: Decodable {
     var id: String
     var name: String
     var color: String
     var type: String
-    var directions = [Direction]()
+    var directions = [String: String]()
 }

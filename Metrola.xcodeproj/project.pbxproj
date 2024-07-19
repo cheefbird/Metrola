@@ -21,7 +21,8 @@
 		065FDD552C45C3CE0010487C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 065FDD542C45C3CE0010487C /* Alamofire */; };
 		065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD572C45C4AE0010487C /* MetroNetRouter.swift */; };
 		065FDD602C45C95B0010487C /* MetroNetRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */; };
-		065FDD692C45D6360010487C /* CodeNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD682C45D6360010487C /* CodeNotes.swift */; };
+		065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6B2C45D9FC0010487C /* MetroNet.swift */; };
+		065FDD6E2C45EB0E0010487C /* MetroNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */; };
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
@@ -53,7 +54,9 @@
 		065FDD572C45C4AE0010487C /* MetroNetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouter.swift; sourceTree = "<group>"; };
 		065FDD5D2C45C95B0010487C /* MetrolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouterTests.swift; sourceTree = "<group>"; };
-		065FDD682C45D6360010487C /* CodeNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNotes.swift; sourceTree = "<group>"; };
+		065FDD6B2C45D9FC0010487C /* MetroNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNet.swift; sourceTree = "<group>"; };
+		065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetTests.swift; sourceTree = "<group>"; };
+		065FDD6F2C45ED130010487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067D7D382C44AC130063734B /* AgencyKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyKey.swift; sourceTree = "<group>"; };
 		06C4BF372C44B44B00197544 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		06C4BF392C44BE0E00197544 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
@@ -109,6 +112,7 @@
 				06C4BF392C44BE0E00197544 /* testLocation.gpx */,
 				061DCD5D2C44A13200CEDF2F /* Preview Content */,
 				061DCD7A2C44A3BA00CEDF2F /* README.md */,
+				065FDD6F2C45ED130010487C /* Info.plist */,
 			);
 			path = Metrola;
 			sourceTree = "<group>";
@@ -126,7 +130,6 @@
 			children = (
 				061DCD6C2C44A34F00CEDF2F /* testStops.json */,
 				061DCD782C44A39600CEDF2F /* Helpers.swift */,
-				065FDD682C45D6360010487C /* CodeNotes.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				065FDD572C45C4AE0010487C /* MetroNetRouter.swift */,
+				065FDD6B2C45D9FC0010487C /* MetroNet.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */,
+				065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */,
 			);
 			path = MetrolaTests;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */,
 				061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */,
 				065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */,
+				065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */,
 				067D7D392C44AC130063734B /* AgencyKey.swift in Sources */,
 				061DCD712C44A36400CEDF2F /* Line.swift in Sources */,
 				061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */,
@@ -286,7 +292,6 @@
 				061DCD582C44A13100CEDF2F /* MetrolaApp.swift in Sources */,
 				061DCD722C44A36400CEDF2F /* Station.swift in Sources */,
 				06C4BF382C44B44B00197544 /* Direction.swift in Sources */,
-				065FDD692C45D6360010487C /* CodeNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				065FDD602C45C95B0010487C /* MetroNetRouterTests.swift in Sources */,
+				065FDD6E2C45EB0E0010487C /* MetroNetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

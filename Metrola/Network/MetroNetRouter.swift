@@ -30,7 +30,6 @@ enum MetroNetRouter: URLRequestConvertible {
         
         let headers: HTTPHeaders = [
             "Accept": "application/json",
-            "Authorization": Swiftly.key.rawValue
         ]
         request.headers = headers
         
