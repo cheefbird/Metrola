@@ -16,7 +16,7 @@ struct RootView: View {
                     Text("Map View")
                 }
             
-            Text("TODO: Station List View")
+            LineListView()
                 .padding(.horizontal, 10)
                 .background(.blue)
                 .tabItem {
