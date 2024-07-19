@@ -9,5 +9,5 @@ import Foundation
 
 enum AgencyKey: String {
     case rail = "lametro-rail"
-    case bust = "lametro"
+    case bus = "lametro"
 }
