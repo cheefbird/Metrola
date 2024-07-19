@@ -1,0 +1,1791 @@
+[
+  {
+    "id": "801",
+    "name": "Metro A Line",
+    "shortName": "Metro A Line",
+    "longName": "Metro A Line",
+    "color": "0072BC",
+    "textColor": "FFFFFF",
+    "type": "0",
+    "directions": [
+      {
+        "id": "0",
+        "title": "To APU / Citrus College Station",
+        "stops": [
+          {
+            "id": "80101",
+            "name": "Downtown Long Beach Station",
+            "code": 80101,
+            "lat": 33.768071,
+            "lon": -118.192921
+          },
+          {
+            "id": "80102",
+            "name": "Pacific Ave Station",
+            "code": 80102,
+            "lat": 33.772258,
+            "lon": -118.1937
+          },
+          {
+            "id": "80105",
+            "name": "Anaheim Street Station",
+            "code": 80105,
+            "lat": 33.78183,
+            "lon": -118.189384
+          },
+          {
+            "id": "80106",
+            "name": "Pacific Coast Hwy Station",
+            "code": 80106,
+            "lat": 33.78909,
+            "lon": -118.189382
+          },
+          {
+            "id": "80107",
+            "name": "Willow Street Station",
+            "code": 80107,
+            "lat": 33.807079,
+            "lon": -118.189834
+          },
+          {
+            "id": "80108",
+            "name": "Wardlow Station",
+            "code": 80108,
+            "lat": 33.819865,
+            "lon": -118.19609
+          },
+          {
+            "id": "80109",
+            "name": "Del Amo Station",
+            "code": 80109,
+            "lat": 33.848222,
+            "lon": -118.211017
+          },
+          {
+            "id": "80110",
+            "name": "Artesia Station",
+            "code": 80110,
+            "lat": 33.876082,
+            "lon": -118.222503
+          },
+          {
+            "id": "80111",
+            "name": "Compton Station",
+            "code": 80111,
+            "lat": 33.89749,
+            "lon": -118.224249
+          },
+          {
+            "id": "80112",
+            "name": "Willowbrook - Rosa Parks Station - Metro A-Line",
+            "code": 80112,
+            "lat": 33.928048,
+            "lon": -118.237555
+          },
+          {
+            "id": "80113",
+            "name": "103rd Street / Watts Towers  Station",
+            "code": 80113,
+            "lat": 33.94222,
+            "lon": -118.243159
+          },
+          {
+            "id": "80114",
+            "name": "Firestone Station",
+            "code": 80114,
+            "lat": 33.959611,
+            "lon": -118.243205
+          },
+          {
+            "id": "80115",
+            "name": "Florence Station",
+            "code": 80115,
+            "lat": 33.97374,
+            "lon": -118.243271
+          },
+          {
+            "id": "80116",
+            "name": "Slauson Station",
+            "code": 80116,
+            "lat": 33.98876,
+            "lon": -118.243398
+          },
+          {
+            "id": "80117",
+            "name": "Vernon Station",
+            "code": 80117,
+            "lat": 34.00292,
+            "lon": -118.243303
+          },
+          {
+            "id": "80118",
+            "name": "Washington Station",
+            "code": 80118,
+            "lat": 34.01965,
+            "lon": -118.243084
+          },
+          {
+            "id": "80119",
+            "name": "San Pedro Street Station",
+            "code": 80119,
+            "lat": 34.026807,
+            "lon": -118.255505
+          },
+          {
+            "id": "80120",
+            "name": "Grand / LATTC Station",
+            "code": 80120,
+            "lat": 34.033155,
+            "lon": -118.269333
+          },
+          {
+            "id": "80121",
+            "name": "Pico Station",
+            "code": 80121,
+            "lat": 34.040735,
+            "lon": -118.266118
+          },
+          {
+            "id": "80122",
+            "name": "7th Street / Metro Center Station - Metro A & E Lines",
+            "code": 80122,
+            "lat": 34.04861,
+            "lon": -118.258822
+          },
+          {
+            "id": "81401",
+            "name": "Grand Ave Arts / Bunker Hill Station",
+            "code": 81401,
+            "lat": 34.05472448,
+            "lon": -118.2515307
+          },
+          {
+            "id": "81402",
+            "name": "Historic Broadway Station",
+            "code": 81402,
+            "lat": 34.05215607,
+            "lon": -118.2463211
+          },
+          {
+            "id": "81403",
+            "name": "Little Tokyo / Arts District Station",
+            "code": 81403,
+            "lat": 34.04884524,
+            "lon": -118.2387567
+          },
+          {
+            "id": "80409",
+            "name": "Union Station - Metro A-Line",
+            "code": 80409,
+            "lat": 34.05745,
+            "lon": -118.23442
+          },
+          {
+            "id": "80410",
+            "name": "Chinatown Station",
+            "code": 80410,
+            "lat": 34.063861,
+            "lon": -118.23584
+          },
+          {
+            "id": "80411",
+            "name": "Lincoln Heights / Cypress Park Station",
+            "code": 80411,
+            "lat": 34.080949,
+            "lon": -118.220429
+          },
+          {
+            "id": "80412",
+            "name": "Heritage Square / Arroyo Station",
+            "code": 80412,
+            "lat": 34.087227,
+            "lon": -118.213213
+          },
+          {
+            "id": "80413",
+            "name": "Southwest Museum Station",
+            "code": 80413,
+            "lat": 34.098243,
+            "lon": -118.206712
+          },
+          {
+            "id": "80414",
+            "name": "Highland Park Station",
+            "code": 80414,
+            "lat": 34.111179,
+            "lon": -118.192606
+          },
+          {
+            "id": "80415",
+            "name": "South Pasadena Station",
+            "code": 80415,
+            "lat": 34.115186,
+            "lon": -118.157886
+          },
+          {
+            "id": "80416",
+            "name": "Fillmore Station",
+            "code": 80416,
+            "lat": 34.133521,
+            "lon": -118.148126
+          },
+          {
+            "id": "80417",
+            "name": "Del Mar Station",
+            "code": 80417,
+            "lat": 34.14191,
+            "lon": -118.148214
+          },
+          {
+            "id": "80418",
+            "name": "Memorial Park Station",
+            "code": 80418,
+            "lat": 34.148356,
+            "lon": -118.147512
+          },
+          {
+            "id": "80419",
+            "name": "Lake Station",
+            "code": 80419,
+            "lat": 34.151806,
+            "lon": -118.13139
+          },
+          {
+            "id": "80420",
+            "name": "Allen Station",
+            "code": 80420,
+            "lat": 34.152417,
+            "lon": -118.114348
+          },
+          {
+            "id": "80421",
+            "name": "Sierra Madre Villa Station",
+            "code": 80421,
+            "lat": 34.147752,
+            "lon": -118.081212
+          },
+          {
+            "id": "80422",
+            "name": "Arcadia Station",
+            "code": 80422,
+            "lat": 34.14286,
+            "lon": -118.029199
+          },
+          {
+            "id": "80423",
+            "name": "Monrovia Station",
+            "code": 80423,
+            "lat": 34.133155,
+            "lon": -118.003473
+          },
+          {
+            "id": "80424",
+            "name": "Duarte / City of Hope Station",
+            "code": 80424,
+            "lat": 34.132518,
+            "lon": -117.96768
+          },
+          {
+            "id": "80425",
+            "name": "Irwindale Station",
+            "code": 80425,
+            "lat": 34.129048,
+            "lon": -117.932506
+          },
+          {
+            "id": "80426",
+            "name": "Azusa Downtown Station",
+            "code": 80426,
+            "lat": 34.135863,
+            "lon": -117.906631
+          },
+          {
+            "id": "80427",
+            "name": "APU / Citrus College Station",
+            "code": 80427,
+            "lat": 34.136814,
+            "lon": -117.891636
+          }
+        ],
+        "headsigns": ["APU / Citrus College Station", "Monrovia Station"]
+      },
+      {
+        "id": "1",
+        "title": "To Downtown Long Beach Station",
+        "stops": [
+          {
+            "id": "80427",
+            "name": "APU / Citrus College Station",
+            "code": 80427,
+            "lat": 34.136814,
+            "lon": -117.891636
+          },
+          {
+            "id": "80426",
+            "name": "Azusa Downtown Station",
+            "code": 80426,
+            "lat": 34.135863,
+            "lon": -117.906631
+          },
+          {
+            "id": "80425",
+            "name": "Irwindale Station",
+            "code": 80425,
+            "lat": 34.129048,
+            "lon": -117.932506
+          },
+          {
+            "id": "80424",
+            "name": "Duarte / City of Hope Station",
+            "code": 80424,
+            "lat": 34.132518,
+            "lon": -117.96768
+          },
+          {
+            "id": "80423",
+            "name": "Monrovia Station",
+            "code": 80423,
+            "lat": 34.133155,
+            "lon": -118.003473
+          },
+          {
+            "id": "80422",
+            "name": "Arcadia Station",
+            "code": 80422,
+            "lat": 34.14286,
+            "lon": -118.029199
+          },
+          {
+            "id": "80421",
+            "name": "Sierra Madre Villa Station",
+            "code": 80421,
+            "lat": 34.147752,
+            "lon": -118.081212
+          },
+          {
+            "id": "80420",
+            "name": "Allen Station",
+            "code": 80420,
+            "lat": 34.152417,
+            "lon": -118.114348
+          },
+          {
+            "id": "80419",
+            "name": "Lake Station",
+            "code": 80419,
+            "lat": 34.151806,
+            "lon": -118.13139
+          },
+          {
+            "id": "80418",
+            "name": "Memorial Park Station",
+            "code": 80418,
+            "lat": 34.148356,
+            "lon": -118.147512
+          },
+          {
+            "id": "80417",
+            "name": "Del Mar Station",
+            "code": 80417,
+            "lat": 34.14191,
+            "lon": -118.148214
+          },
+          {
+            "id": "80416",
+            "name": "Fillmore Station",
+            "code": 80416,
+            "lat": 34.133521,
+            "lon": -118.148126
+          },
+          {
+            "id": "80415",
+            "name": "South Pasadena Station",
+            "code": 80415,
+            "lat": 34.115186,
+            "lon": -118.157886
+          },
+          {
+            "id": "80414",
+            "name": "Highland Park Station",
+            "code": 80414,
+            "lat": 34.111179,
+            "lon": -118.192606
+          },
+          {
+            "id": "80413",
+            "name": "Southwest Museum Station",
+            "code": 80413,
+            "lat": 34.098243,
+            "lon": -118.206712
+          },
+          {
+            "id": "80412",
+            "name": "Heritage Square / Arroyo Station",
+            "code": 80412,
+            "lat": 34.087227,
+            "lon": -118.213213
+          },
+          {
+            "id": "80411",
+            "name": "Lincoln Heights / Cypress Park Station",
+            "code": 80411,
+            "lat": 34.080949,
+            "lon": -118.220429
+          },
+          {
+            "id": "80410",
+            "name": "Chinatown Station",
+            "code": 80410,
+            "lat": 34.063861,
+            "lon": -118.23584
+          },
+          {
+            "id": "80409",
+            "name": "Union Station - Metro A-Line",
+            "code": 80409,
+            "lat": 34.05745,
+            "lon": -118.23442
+          },
+          {
+            "id": "81403",
+            "name": "Little Tokyo / Arts District Station",
+            "code": 81403,
+            "lat": 34.04884524,
+            "lon": -118.2387567
+          },
+          {
+            "id": "81402",
+            "name": "Historic Broadway Station",
+            "code": 81402,
+            "lat": 34.05215607,
+            "lon": -118.2463211
+          },
+          {
+            "id": "81401",
+            "name": "Grand Ave Arts / Bunker Hill Station",
+            "code": 81401,
+            "lat": 34.05472448,
+            "lon": -118.2515307
+          },
+          {
+            "id": "80122",
+            "name": "7th Street / Metro Center Station - Metro A & E Lines",
+            "code": 80122,
+            "lat": 34.04861,
+            "lon": -118.258822
+          },
+          {
+            "id": "80121",
+            "name": "Pico Station",
+            "code": 80121,
+            "lat": 34.040735,
+            "lon": -118.266118
+          },
+          {
+            "id": "80120",
+            "name": "Grand / LATTC Station",
+            "code": 80120,
+            "lat": 34.033155,
+            "lon": -118.269333
+          },
+          {
+            "id": "80119",
+            "name": "San Pedro Street Station",
+            "code": 80119,
+            "lat": 34.026807,
+            "lon": -118.255505
+          },
+          {
+            "id": "80118",
+            "name": "Washington Station",
+            "code": 80118,
+            "lat": 34.01965,
+            "lon": -118.243084
+          },
+          {
+            "id": "80117",
+            "name": "Vernon Station",
+            "code": 80117,
+            "lat": 34.00292,
+            "lon": -118.243303
+          },
+          {
+            "id": "80116",
+            "name": "Slauson Station",
+            "code": 80116,
+            "lat": 33.98876,
+            "lon": -118.243398
+          },
+          {
+            "id": "80115",
+            "name": "Florence Station",
+            "code": 80115,
+            "lat": 33.97374,
+            "lon": -118.243271
+          },
+          {
+            "id": "80114",
+            "name": "Firestone Station",
+            "code": 80114,
+            "lat": 33.959611,
+            "lon": -118.243205
+          },
+          {
+            "id": "80113",
+            "name": "103rd Street / Watts Towers  Station",
+            "code": 80113,
+            "lat": 33.94222,
+            "lon": -118.243159
+          },
+          {
+            "id": "80112",
+            "name": "Willowbrook - Rosa Parks Station - Metro A-Line",
+            "code": 80112,
+            "lat": 33.928048,
+            "lon": -118.237555
+          },
+          {
+            "id": "80111",
+            "name": "Compton Station",
+            "code": 80111,
+            "lat": 33.89749,
+            "lon": -118.224249
+          },
+          {
+            "id": "80110",
+            "name": "Artesia Station",
+            "code": 80110,
+            "lat": 33.876082,
+            "lon": -118.222503
+          },
+          {
+            "id": "80109",
+            "name": "Del Amo Station",
+            "code": 80109,
+            "lat": 33.848222,
+            "lon": -118.211017
+          },
+          {
+            "id": "80108",
+            "name": "Wardlow Station",
+            "code": 80108,
+            "lat": 33.819865,
+            "lon": -118.19609
+          },
+          {
+            "id": "80107",
+            "name": "Willow Street Station",
+            "code": 80107,
+            "lat": 33.807079,
+            "lon": -118.189834
+          },
+          {
+            "id": "80106",
+            "name": "Pacific Coast Hwy Station",
+            "code": 80106,
+            "lat": 33.78909,
+            "lon": -118.189382
+          },
+          {
+            "id": "80105",
+            "name": "Anaheim Street Station",
+            "code": 80105,
+            "lat": 33.78183,
+            "lon": -118.189384
+          },
+          {
+            "id": "80154",
+            "name": "5th Street Station",
+            "code": 80154,
+            "lat": 33.773598,
+            "lon": -118.189412
+          },
+          {
+            "id": "80153",
+            "name": "1st Street Station",
+            "code": 80153,
+            "lat": 33.76874,
+            "lon": -118.189362
+          },
+          {
+            "id": "80101",
+            "name": "Downtown Long Beach Station",
+            "code": 80101,
+            "lat": 33.768071,
+            "lon": -118.192921
+          }
+        ],
+        "headsigns": ["Downtown Long Beach Station"]
+      }
+    ],
+    "extent": {
+      "minLat": 33.768071,
+      "minLon": -118.269333,
+      "maxLat": 34.152417,
+      "maxLon": -117.891636
+    }
+  },
+  {
+    "id": "802",
+    "name": "Metro B Line",
+    "shortName": "Metro B Line",
+    "longName": "Metro B Line",
+    "color": "EB131B",
+    "textColor": "FFFFFF",
+    "type": "1",
+    "directions": [
+      {
+        "id": "0",
+        "title": "To Union Station",
+        "stops": [
+          {
+            "id": "80201",
+            "name": "North Hollywood Station",
+            "code": 80201,
+            "lat": 34.168504,
+            "lon": -118.376808
+          },
+          {
+            "id": "80202",
+            "name": "Universal / Studio City Station",
+            "code": 80202,
+            "lat": 34.140002,
+            "lon": -118.362699
+          },
+          {
+            "id": "80203",
+            "name": "Hollywood / Highland Station",
+            "code": 80203,
+            "lat": 34.101547,
+            "lon": -118.338549
+          },
+          {
+            "id": "80204",
+            "name": "Hollywood / Vine Station",
+            "code": 80204,
+            "lat": 34.10163,
+            "lon": -118.32518
+          },
+          {
+            "id": "80205",
+            "name": "Hollywood / Western Station",
+            "code": 80205,
+            "lat": 34.101737,
+            "lon": -118.308117
+          },
+          {
+            "id": "80206",
+            "name": "Vermont / Sunset Station",
+            "code": 80206,
+            "lat": 34.097708,
+            "lon": -118.291756
+          },
+          {
+            "id": "80207",
+            "name": "Vermont / Santa Monica Station",
+            "code": 80207,
+            "lat": 34.08991,
+            "lon": -118.29173
+          },
+          {
+            "id": "80208",
+            "name": "Vermont / Beverly Station",
+            "code": 80208,
+            "lat": 34.076526,
+            "lon": -118.291686
+          },
+          {
+            "id": "80209",
+            "name": "Wilshire / Vermont Station",
+            "code": 80209,
+            "lat": 34.062701,
+            "lon": -118.290082
+          },
+          {
+            "id": "80210",
+            "name": "Westlake / MacArthur Park Station",
+            "code": 80210,
+            "lat": 34.056368,
+            "lon": -118.274879
+          },
+          {
+            "id": "80211",
+            "name": "7th Street / Metro Center Station - Metro B & D Lines",
+            "code": 80211,
+            "lat": 34.048634,
+            "lon": -118.258682
+          },
+          {
+            "id": "80212",
+            "name": "Pershing Square Station",
+            "code": 80212,
+            "lat": 34.049316,
+            "lon": -118.251259
+          },
+          {
+            "id": "80213",
+            "name": "Civic Center / Grand Park Station",
+            "code": 80213,
+            "lat": 34.0549,
+            "lon": -118.246057
+          },
+          {
+            "id": "80214",
+            "name": "Union Station - Metro B & D Lines",
+            "code": 80214,
+            "lat": 34.056197,
+            "lon": -118.234249
+          }
+        ],
+        "headsigns": ["Union Station"]
+      },
+      {
+        "id": "1",
+        "title": "To North Hollywood Station",
+        "stops": [
+          {
+            "id": "80214",
+            "name": "Union Station - Metro B & D Lines",
+            "code": 80214,
+            "lat": 34.056197,
+            "lon": -118.234249
+          },
+          {
+            "id": "80213",
+            "name": "Civic Center / Grand Park Station",
+            "code": 80213,
+            "lat": 34.0549,
+            "lon": -118.246057
+          },
+          {
+            "id": "80212",
+            "name": "Pershing Square Station",
+            "code": 80212,
+            "lat": 34.049316,
+            "lon": -118.251259
+          },
+          {
+            "id": "80211",
+            "name": "7th Street / Metro Center Station - Metro B & D Lines",
+            "code": 80211,
+            "lat": 34.048634,
+            "lon": -118.258682
+          },
+          {
+            "id": "80210",
+            "name": "Westlake / MacArthur Park Station",
+            "code": 80210,
+            "lat": 34.056368,
+            "lon": -118.274879
+          },
+          {
+            "id": "80209",
+            "name": "Wilshire / Vermont Station",
+            "code": 80209,
+            "lat": 34.062701,
+            "lon": -118.290082
+          },
+          {
+            "id": "80208",
+            "name": "Vermont / Beverly Station",
+            "code": 80208,
+            "lat": 34.076526,
+            "lon": -118.291686
+          },
+          {
+            "id": "80207",
+            "name": "Vermont / Santa Monica Station",
+            "code": 80207,
+            "lat": 34.08991,
+            "lon": -118.29173
+          },
+          {
+            "id": "80206",
+            "name": "Vermont / Sunset Station",
+            "code": 80206,
+            "lat": 34.097708,
+            "lon": -118.291756
+          },
+          {
+            "id": "80205",
+            "name": "Hollywood / Western Station",
+            "code": 80205,
+            "lat": 34.101737,
+            "lon": -118.308117
+          },
+          {
+            "id": "80204",
+            "name": "Hollywood / Vine Station",
+            "code": 80204,
+            "lat": 34.10163,
+            "lon": -118.32518
+          },
+          {
+            "id": "80203",
+            "name": "Hollywood / Highland Station",
+            "code": 80203,
+            "lat": 34.101547,
+            "lon": -118.338549
+          },
+          {
+            "id": "80202",
+            "name": "Universal / Studio City Station",
+            "code": 80202,
+            "lat": 34.140002,
+            "lon": -118.362699
+          },
+          {
+            "id": "80201",
+            "name": "North Hollywood Station",
+            "code": 80201,
+            "lat": 34.168504,
+            "lon": -118.376808
+          }
+        ],
+        "headsigns": ["North Hollywood Station"]
+      }
+    ],
+    "extent": {
+      "minLat": 34.048634,
+      "minLon": -118.376808,
+      "maxLat": 34.168504,
+      "maxLon": -118.234249
+    }
+  },
+  {
+    "id": "803",
+    "name": "Metro C Line",
+    "shortName": "Metro C Line",
+    "longName": "Metro C Line",
+    "color": "58A738",
+    "textColor": "FFFFFF",
+    "type": "0",
+    "directions": [
+      {
+        "id": "0",
+        "title": "To Norwalk Station",
+        "stops": [
+          {
+            "id": "80301",
+            "name": "Redondo Beach Station",
+            "code": 80301,
+            "lat": 33.89464,
+            "lon": -118.369196
+          },
+          {
+            "id": "80302",
+            "name": "Douglas Station",
+            "code": 80302,
+            "lat": 33.905299,
+            "lon": -118.383113
+          },
+          {
+            "id": "80303",
+            "name": "El Segundo Station",
+            "code": 80303,
+            "lat": 33.916063,
+            "lon": -118.386539
+          },
+          {
+            "id": "80304",
+            "name": "Mariposa Station",
+            "code": 80304,
+            "lat": 33.9232,
+            "lon": -118.387572
+          },
+          {
+            "id": "80305",
+            "name": "Aviation / LAX Station",
+            "code": 80305,
+            "lat": 33.929621,
+            "lon": -118.377134
+          },
+          {
+            "id": "80306",
+            "name": "Hawthorne / Lennox Station",
+            "code": 80306,
+            "lat": 33.933408,
+            "lon": -118.351602
+          },
+          {
+            "id": "80307",
+            "name": "Crenshaw C-Line Station",
+            "code": 80307,
+            "lat": 33.925201,
+            "lon": -118.32655
+          },
+          {
+            "id": "80308",
+            "name": "Vermont / Athens Station",
+            "code": 80308,
+            "lat": 33.928683,
+            "lon": -118.291733
+          },
+          {
+            "id": "80309",
+            "name": "Harbor Freeway Station",
+            "code": 80309,
+            "lat": 33.928714,
+            "lon": -118.2811
+          },
+          {
+            "id": "80310",
+            "name": "Avalon Station",
+            "code": 80310,
+            "lat": 33.927465,
+            "lon": -118.265217
+          },
+          {
+            "id": "80311",
+            "name": "Willowbrook - Rosa Parks Station - Metro C-Line",
+            "code": 80311,
+            "lat": 33.928258,
+            "lon": -118.238052
+          },
+          {
+            "id": "80312",
+            "name": "Long Beach Blvd Station",
+            "code": 80312,
+            "lat": 33.92488,
+            "lon": -118.209945
+          },
+          {
+            "id": "80313",
+            "name": "Lakewood Blvd Station",
+            "code": 80313,
+            "lat": 33.91307,
+            "lon": -118.1406
+          },
+          {
+            "id": "80314",
+            "name": "Norwalk Station",
+            "code": 80314,
+            "lat": 33.914033,
+            "lon": -118.104717
+          }
+        ],
+        "headsigns": ["Willowbrook / Rosa Parks Station", "Norwalk Station"]
+      },
+      {
+        "id": "1",
+        "title": "To Redondo Beach Station",
+        "stops": [
+          {
+            "id": "80314",
+            "name": "Norwalk Station",
+            "code": 80314,
+            "lat": 33.914033,
+            "lon": -118.104717
+          },
+          {
+            "id": "80313",
+            "name": "Lakewood Blvd Station",
+            "code": 80313,
+            "lat": 33.91307,
+            "lon": -118.1406
+          },
+          {
+            "id": "80312",
+            "name": "Long Beach Blvd Station",
+            "code": 80312,
+            "lat": 33.92488,
+            "lon": -118.209945
+          },
+          {
+            "id": "80311",
+            "name": "Willowbrook - Rosa Parks Station - Metro C-Line",
+            "code": 80311,
+            "lat": 33.928258,
+            "lon": -118.238052
+          },
+          {
+            "id": "80310",
+            "name": "Avalon Station",
+            "code": 80310,
+            "lat": 33.927465,
+            "lon": -118.265217
+          },
+          {
+            "id": "80309",
+            "name": "Harbor Freeway Station",
+            "code": 80309,
+            "lat": 33.928714,
+            "lon": -118.2811
+          },
+          {
+            "id": "80308",
+            "name": "Vermont / Athens Station",
+            "code": 80308,
+            "lat": 33.928683,
+            "lon": -118.291733
+          },
+          {
+            "id": "80307",
+            "name": "Crenshaw C-Line Station",
+            "code": 80307,
+            "lat": 33.925201,
+            "lon": -118.32655
+          },
+          {
+            "id": "80306",
+            "name": "Hawthorne / Lennox Station",
+            "code": 80306,
+            "lat": 33.933408,
+            "lon": -118.351602
+          },
+          {
+            "id": "80305",
+            "name": "Aviation / LAX Station",
+            "code": 80305,
+            "lat": 33.929621,
+            "lon": -118.377134
+          },
+          {
+            "id": "80304",
+            "name": "Mariposa Station",
+            "code": 80304,
+            "lat": 33.9232,
+            "lon": -118.387572
+          },
+          {
+            "id": "80303",
+            "name": "El Segundo Station",
+            "code": 80303,
+            "lat": 33.916063,
+            "lon": -118.386539
+          },
+          {
+            "id": "80302",
+            "name": "Douglas Station",
+            "code": 80302,
+            "lat": 33.905299,
+            "lon": -118.383113
+          },
+          {
+            "id": "80301",
+            "name": "Redondo Beach Station",
+            "code": 80301,
+            "lat": 33.89464,
+            "lon": -118.369196
+          }
+        ],
+        "headsigns": ["Redondo Beach Station"]
+      }
+    ],
+    "extent": {
+      "minLat": 33.89464,
+      "minLon": -118.387572,
+      "maxLat": 33.933408,
+      "maxLon": -118.104717
+    }
+  },
+  {
+    "id": "805",
+    "name": "Metro D Line",
+    "shortName": "Metro D Line",
+    "longName": "Metro D Line",
+    "color": "A05DA5",
+    "textColor": "FFFFFF",
+    "type": "1",
+    "directions": [
+      {
+        "id": "0",
+        "title": "To Union Station",
+        "stops": [
+          {
+            "id": "80216",
+            "name": "Wilshire / Western Station",
+            "code": 80216,
+            "lat": 34.061689,
+            "lon": -118.308756
+          },
+          {
+            "id": "80215",
+            "name": "Wilshire / Normandie Station",
+            "code": 80215,
+            "lat": 34.061753,
+            "lon": -118.301458
+          },
+          {
+            "id": "80209",
+            "name": "Wilshire / Vermont Station",
+            "code": 80209,
+            "lat": 34.062701,
+            "lon": -118.290082
+          },
+          {
+            "id": "80210",
+            "name": "Westlake / MacArthur Park Station",
+            "code": 80210,
+            "lat": 34.056368,
+            "lon": -118.274879
+          },
+          {
+            "id": "80211",
+            "name": "7th Street / Metro Center Station - Metro B & D Lines",
+            "code": 80211,
+            "lat": 34.048634,
+            "lon": -118.258682
+          },
+          {
+            "id": "80212",
+            "name": "Pershing Square Station",
+            "code": 80212,
+            "lat": 34.049316,
+            "lon": -118.251259
+          },
+          {
+            "id": "80213",
+            "name": "Civic Center / Grand Park Station",
+            "code": 80213,
+            "lat": 34.0549,
+            "lon": -118.246057
+          },
+          {
+            "id": "80214",
+            "name": "Union Station - Metro B & D Lines",
+            "code": 80214,
+            "lat": 34.056197,
+            "lon": -118.234249
+          }
+        ],
+        "headsigns": ["Union Station", "Wilshire / Vermont Station"]
+      },
+      {
+        "id": "1",
+        "title": "To Wilshire / Western Station",
+        "stops": [
+          {
+            "id": "80214",
+            "name": "Union Station - Metro B & D Lines",
+            "code": 80214,
+            "lat": 34.056197,
+            "lon": -118.234249
+          },
+          {
+            "id": "80213",
+            "name": "Civic Center / Grand Park Station",
+            "code": 80213,
+            "lat": 34.0549,
+            "lon": -118.246057
+          },
+          {
+            "id": "80212",
+            "name": "Pershing Square Station",
+            "code": 80212,
+            "lat": 34.049316,
+            "lon": -118.251259
+          },
+          {
+            "id": "80211",
+            "name": "7th Street / Metro Center Station - Metro B & D Lines",
+            "code": 80211,
+            "lat": 34.048634,
+            "lon": -118.258682
+          },
+          {
+            "id": "80210",
+            "name": "Westlake / MacArthur Park Station",
+            "code": 80210,
+            "lat": 34.056368,
+            "lon": -118.274879
+          },
+          {
+            "id": "80209",
+            "name": "Wilshire / Vermont Station",
+            "code": 80209,
+            "lat": 34.062701,
+            "lon": -118.290082
+          },
+          {
+            "id": "80215",
+            "name": "Wilshire / Normandie Station",
+            "code": 80215,
+            "lat": 34.061753,
+            "lon": -118.301458
+          },
+          {
+            "id": "80216",
+            "name": "Wilshire / Western Station",
+            "code": 80216,
+            "lat": 34.061689,
+            "lon": -118.308756
+          }
+        ],
+        "headsigns": ["Wilshire / Western Station"]
+      }
+    ],
+    "extent": {
+      "minLat": 34.048634,
+      "minLon": -118.308756,
+      "maxLat": 34.062701,
+      "maxLon": -118.234249
+    }
+  },
+  {
+    "id": "804",
+    "name": "Metro E Line",
+    "shortName": "Metro E Line",
+    "longName": "Metro E Line",
+    "color": "FDB913",
+    "textColor": "000000",
+    "type": "0",
+    "directions": [
+      {
+        "id": "0",
+        "title": "To Atlantic Station",
+        "stops": [
+          {
+            "id": "80139",
+            "name": "Downtown Santa Monica Station",
+            "code": 80139,
+            "lat": 34.01401,
+            "lon": -118.491384
+          },
+          {
+            "id": "80138",
+            "name": "17th Street / SMC Station",
+            "code": 80138,
+            "lat": 34.023155,
+            "lon": -118.480372
+          },
+          {
+            "id": "80137",
+            "name": "26th Street / Bergamot Station",
+            "code": 80137,
+            "lat": 34.027995,
+            "lon": -118.46912
+          },
+          {
+            "id": "80136",
+            "name": "Expo / Bundy Station",
+            "code": 80136,
+            "lat": 34.031705,
+            "lon": -118.452896
+          },
+          {
+            "id": "80135",
+            "name": "Expo / Sepulveda Station",
+            "code": 80135,
+            "lat": 34.035408,
+            "lon": -118.434234
+          },
+          {
+            "id": "80134",
+            "name": "Westwood / Rancho Park Station",
+            "code": 80134,
+            "lat": 34.036816,
+            "lon": -118.424576
+          },
+          {
+            "id": "80133",
+            "name": "Palms Station",
+            "code": 80133,
+            "lat": 34.029323,
+            "lon": -118.404255
+          },
+          {
+            "id": "80132",
+            "name": "Culver City Station",
+            "code": 80132,
+            "lat": 34.027896,
+            "lon": -118.388986
+          },
+          {
+            "id": "80131",
+            "name": "La Cienega / Jefferson Station",
+            "code": 80131,
+            "lat": 34.026355,
+            "lon": -118.37212
+          },
+          {
+            "id": "80130",
+            "name": "Expo / La Brea / Ethel Bradley Station",
+            "code": 80130,
+            "lat": 34.024803,
+            "lon": -118.355159
+          },
+          {
+            "id": "80129",
+            "name": "Farmdale Station",
+            "code": 80129,
+            "lat": 34.023981,
+            "lon": -118.346095
+          },
+          {
+            "id": "80128",
+            "name": "Expo / Crenshaw E-Line Station",
+            "code": 80128,
+            "lat": 34.022526,
+            "lon": -118.335078
+          },
+          {
+            "id": "80127",
+            "name": "Expo / Western Station",
+            "code": 80127,
+            "lat": 34.018331,
+            "lon": -118.30891
+          },
+          {
+            "id": "80126",
+            "name": "Expo / Vermont Station",
+            "code": 80126,
+            "lat": 34.018245,
+            "lon": -118.29154
+          },
+          {
+            "id": "80125",
+            "name": "Expo Park / USC Station",
+            "code": 80125,
+            "lat": 34.018227,
+            "lon": -118.285734
+          },
+          {
+            "id": "80124",
+            "name": "Jefferson / USC Station",
+            "code": 80124,
+            "lat": 34.022123,
+            "lon": -118.278118
+          },
+          {
+            "id": "80123",
+            "name": "LATTC / Ortho Institute Station",
+            "code": 80123,
+            "lat": 34.029112,
+            "lon": -118.273603
+          },
+          {
+            "id": "80121",
+            "name": "Pico Station",
+            "code": 80121,
+            "lat": 34.040735,
+            "lon": -118.266118
+          },
+          {
+            "id": "80122",
+            "name": "7th Street / Metro Center Station - Metro A & E Lines",
+            "code": 80122,
+            "lat": 34.04861,
+            "lon": -118.258822
+          },
+          {
+            "id": "81401",
+            "name": "Grand Ave Arts / Bunker Hill Station",
+            "code": 81401,
+            "lat": 34.05472448,
+            "lon": -118.2515307
+          },
+          {
+            "id": "81402",
+            "name": "Historic Broadway Station",
+            "code": 81402,
+            "lat": 34.05215607,
+            "lon": -118.2463211
+          },
+          {
+            "id": "81403",
+            "name": "Little Tokyo / Arts District Station",
+            "code": 81403,
+            "lat": 34.04884524,
+            "lon": -118.2387567
+          },
+          {
+            "id": "80407",
+            "name": "Pico / Aliso Station",
+            "code": 80407,
+            "lat": 34.047634,
+            "lon": -118.22594
+          },
+          {
+            "id": "80406",
+            "name": "Mariachi Plaza / Boyle Heights Station",
+            "code": 80406,
+            "lat": 34.047215,
+            "lon": -118.219648
+          },
+          {
+            "id": "80405",
+            "name": "Soto Station",
+            "code": 80405,
+            "lat": 34.043747,
+            "lon": -118.210061
+          },
+          {
+            "id": "80404",
+            "name": "Indiana Station",
+            "code": 80404,
+            "lat": 34.0343,
+            "lon": -118.192182
+          },
+          {
+            "id": "80403",
+            "name": "Maravilla Station",
+            "code": 80403,
+            "lat": 34.033319,
+            "lon": -118.16814
+          },
+          {
+            "id": "80402",
+            "name": "East LA Civic Center Station",
+            "code": 80402,
+            "lat": 34.033364,
+            "lon": -118.161206
+          },
+          {
+            "id": "80401",
+            "name": "Atlantic Station",
+            "code": 80401,
+            "lat": 34.033398,
+            "lon": -118.154469
+          }
+        ],
+        "headsigns": ["Atlantic Station"]
+      },
+      {
+        "id": "1",
+        "title": "To Downtown Santa Monica Station",
+        "stops": [
+          {
+            "id": "80401",
+            "name": "Atlantic Station",
+            "code": 80401,
+            "lat": 34.033398,
+            "lon": -118.154469
+          },
+          {
+            "id": "80402",
+            "name": "East LA Civic Center Station",
+            "code": 80402,
+            "lat": 34.033364,
+            "lon": -118.161206
+          },
+          {
+            "id": "80403",
+            "name": "Maravilla Station",
+            "code": 80403,
+            "lat": 34.033319,
+            "lon": -118.16814
+          },
+          {
+            "id": "80404",
+            "name": "Indiana Station",
+            "code": 80404,
+            "lat": 34.0343,
+            "lon": -118.192182
+          },
+          {
+            "id": "80405",
+            "name": "Soto Station",
+            "code": 80405,
+            "lat": 34.043747,
+            "lon": -118.210061
+          },
+          {
+            "id": "80406",
+            "name": "Mariachi Plaza / Boyle Heights Station",
+            "code": 80406,
+            "lat": 34.047215,
+            "lon": -118.219648
+          },
+          {
+            "id": "80407",
+            "name": "Pico / Aliso Station",
+            "code": 80407,
+            "lat": 34.047634,
+            "lon": -118.22594
+          },
+          {
+            "id": "81403",
+            "name": "Little Tokyo / Arts District Station",
+            "code": 81403,
+            "lat": 34.04884524,
+            "lon": -118.2387567
+          },
+          {
+            "id": "81402",
+            "name": "Historic Broadway Station",
+            "code": 81402,
+            "lat": 34.05215607,
+            "lon": -118.2463211
+          },
+          {
+            "id": "81401",
+            "name": "Grand Ave Arts / Bunker Hill Station",
+            "code": 81401,
+            "lat": 34.05472448,
+            "lon": -118.2515307
+          },
+          {
+            "id": "80122",
+            "name": "7th Street / Metro Center Station - Metro A & E Lines",
+            "code": 80122,
+            "lat": 34.04861,
+            "lon": -118.258822
+          },
+          {
+            "id": "80121",
+            "name": "Pico Station",
+            "code": 80121,
+            "lat": 34.040735,
+            "lon": -118.266118
+          },
+          {
+            "id": "80123",
+            "name": "LATTC / Ortho Institute Station",
+            "code": 80123,
+            "lat": 34.029112,
+            "lon": -118.273603
+          },
+          {
+            "id": "80124",
+            "name": "Jefferson / USC Station",
+            "code": 80124,
+            "lat": 34.022123,
+            "lon": -118.278118
+          },
+          {
+            "id": "80125",
+            "name": "Expo Park / USC Station",
+            "code": 80125,
+            "lat": 34.018227,
+            "lon": -118.285734
+          },
+          {
+            "id": "80126",
+            "name": "Expo / Vermont Station",
+            "code": 80126,
+            "lat": 34.018245,
+            "lon": -118.29154
+          },
+          {
+            "id": "80127",
+            "name": "Expo / Western Station",
+            "code": 80127,
+            "lat": 34.018331,
+            "lon": -118.30891
+          },
+          {
+            "id": "80128",
+            "name": "Expo / Crenshaw E-Line Station",
+            "code": 80128,
+            "lat": 34.022526,
+            "lon": -118.335078
+          },
+          {
+            "id": "80129",
+            "name": "Farmdale Station",
+            "code": 80129,
+            "lat": 34.023981,
+            "lon": -118.346095
+          },
+          {
+            "id": "80130",
+            "name": "Expo / La Brea / Ethel Bradley Station",
+            "code": 80130,
+            "lat": 34.024803,
+            "lon": -118.355159
+          },
+          {
+            "id": "80131",
+            "name": "La Cienega / Jefferson Station",
+            "code": 80131,
+            "lat": 34.026355,
+            "lon": -118.37212
+          },
+          {
+            "id": "80132",
+            "name": "Culver City Station",
+            "code": 80132,
+            "lat": 34.027896,
+            "lon": -118.388986
+          },
+          {
+            "id": "80133",
+            "name": "Palms Station",
+            "code": 80133,
+            "lat": 34.029323,
+            "lon": -118.404255
+          },
+          {
+            "id": "80134",
+            "name": "Westwood / Rancho Park Station",
+            "code": 80134,
+            "lat": 34.036816,
+            "lon": -118.424576
+          },
+          {
+            "id": "80135",
+            "name": "Expo / Sepulveda Station",
+            "code": 80135,
+            "lat": 34.035408,
+            "lon": -118.434234
+          },
+          {
+            "id": "80136",
+            "name": "Expo / Bundy Station",
+            "code": 80136,
+            "lat": 34.031705,
+            "lon": -118.452896
+          },
+          {
+            "id": "80137",
+            "name": "26th Street / Bergamot Station",
+            "code": 80137,
+            "lat": 34.027995,
+            "lon": -118.46912
+          },
+          {
+            "id": "80138",
+            "name": "17th Street / SMC Station",
+            "code": 80138,
+            "lat": 34.023155,
+            "lon": -118.480372
+          },
+          {
+            "id": "80139",
+            "name": "Downtown Santa Monica Station",
+            "code": 80139,
+            "lat": 34.01401,
+            "lon": -118.491384
+          }
+        ],
+        "headsigns": ["Downtown Santa Monica Station"]
+      }
+    ],
+    "extent": {
+      "minLat": 34.01401,
+      "minLon": -118.491384,
+      "maxLat": 34.05472448,
+      "maxLon": -118.154469
+    }
+  },
+  {
+    "id": "807",
+    "name": "Metro K Line",
+    "shortName": "Metro K Line",
+    "longName": "Metro K Line",
+    "color": "E56DB1",
+    "textColor": "000000",
+    "type": "0",
+    "directions": [
+      {
+        "id": "0",
+        "title": "To Expo / Crenshaw Station",
+        "stops": [
+          {
+            "id": "80703",
+            "name": "Westchester / Veterans Station",
+            "code": 80703,
+            "lat": 33.96203144,
+            "lon": -118.374378
+          },
+          {
+            "id": "80704",
+            "name": "Downtown Inglewood Station",
+            "code": 80704,
+            "lat": 33.96715635,
+            "lon": -118.3514966
+          },
+          {
+            "id": "80705",
+            "name": "Fairview Heights Station",
+            "code": 80705,
+            "lat": 33.97525155,
+            "lon": -118.3360716
+          },
+          {
+            "id": "80706",
+            "name": "Hyde Park Station",
+            "code": 80706,
+            "lat": 33.98818653,
+            "lon": -118.3308158
+          },
+          {
+            "id": "80707",
+            "name": "Leimert Park Station",
+            "code": 80707,
+            "lat": 34.00390927,
+            "lon": -118.3320162
+          },
+          {
+            "id": "80708",
+            "name": "Martin Luther King Jr Station",
+            "code": 80708,
+            "lat": 34.00956339,
+            "lon": -118.3353594
+          },
+          {
+            "id": "80709",
+            "name": "Expo / Crenshaw K-Line Station",
+            "code": 80709,
+            "lat": 34.02215554,
+            "lon": -118.3348508
+          }
+        ],
+        "headsigns": ["Expo / Crenshaw Station"]
+      },
+      {
+        "id": "1",
+        "title": "To Westchester / Veterans Station",
+        "stops": [
+          {
+            "id": "80709",
+            "name": "Expo / Crenshaw K-Line Station",
+            "code": 80709,
+            "lat": 34.02215554,
+            "lon": -118.3348508
+          },
+          {
+            "id": "80708",
+            "name": "Martin Luther King Jr Station",
+            "code": 80708,
+            "lat": 34.00956339,
+            "lon": -118.3353594
+          },
+          {
+            "id": "80707",
+            "name": "Leimert Park Station",
+            "code": 80707,
+            "lat": 34.00390927,
+            "lon": -118.3320162
+          },
+          {
+            "id": "80706",
+            "name": "Hyde Park Station",
+            "code": 80706,
+            "lat": 33.98818653,
+            "lon": -118.3308158
+          },
+          {
+            "id": "80705",
+            "name": "Fairview Heights Station",
+            "code": 80705,
+            "lat": 33.97525155,
+            "lon": -118.3360716
+          },
+          {
+            "id": "80704",
+            "name": "Downtown Inglewood Station",
+            "code": 80704,
+            "lat": 33.96715635,
+            "lon": -118.3514966
+          },
+          {
+            "id": "80703",
+            "name": "Westchester / Veterans Station",
+            "code": 80703,
+            "lat": 33.96203144,
+            "lon": -118.374378
+          }
+        ],
+        "headsigns": ["Westchester / Veterans Station"]
+      }
+    ],
+    "extent": {
+      "minLat": 33.96203144,
+      "minLon": -118.374378,
+      "maxLat": 34.02215554,
+      "maxLon": -118.3308158
+    }
+  }
+]
