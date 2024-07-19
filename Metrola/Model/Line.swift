@@ -35,4 +35,23 @@ import SwiftData
         case color
         case type
     }
+    
+    func getImage() -> String {
+        switch self.id {
+        case "801":
+            return "railLine/a"
+        case "802":
+            return "railLine/b"
+        case "803":
+            return "railLine/c"
+        case "805":
+            return "railLine/d"
+        case "804":
+            return "railLine/e"
+        case "807":
+            return "railLine/k"
+        default:
+            return ""
+        }
+    }
 }

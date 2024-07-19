@@ -16,7 +16,13 @@ struct LineListView: View {
     var body: some View {
         List {
             ForEach(lines) { line in
-                Text(line.name)
+                HStack {
+                    Image(line.getImage())
+                        .resizable()
+                        .scaledToFit()
+                    Spacer()
+                    Text(line.name)
+                }
             }
         }
         .onAppear(perform: {
