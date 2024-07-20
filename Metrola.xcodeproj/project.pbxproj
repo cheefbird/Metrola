@@ -25,6 +25,7 @@
 		065FDD6E2C45EB0E0010487C /* MetroNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */; };
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
 		06869FC52C4C4A2C003F847E /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FC42C4C4A2C003F847E /* Support.swift */; };
+		06869FC82C4C4F2A003F847E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 06869FC72C4C4F2A003F847E /* SwiftyJSON */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06869FC82C4C4F2A003F847E /* SwiftyJSON in Frameworks */,
 				065FDD552C45C3CE0010487C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +195,7 @@
 			name = Metrola;
 			packageProductDependencies = (
 				065FDD542C45C3CE0010487C /* Alamofire */,
+				06869FC72C4C4F2A003F847E /* SwiftyJSON */,
 			);
 			productName = Metrola;
 			productReference = 061DCD542C44A13100CEDF2F /* Metrola.app */;
@@ -246,6 +249,7 @@
 			mainGroup = 061DCD4B2C44A13100CEDF2F;
 			packageReferences = (
 				065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 061DCD552C44A13100CEDF2F /* Products */;
 			projectDirPath = "";
@@ -583,6 +587,14 @@
 				minimumVersion = 5.9.1;
 			};
 		};
+		06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -590,6 +602,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		06869FC72C4C4F2A003F847E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
