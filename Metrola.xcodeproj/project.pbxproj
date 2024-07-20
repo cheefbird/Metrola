@@ -24,6 +24,7 @@
 		065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6B2C45D9FC0010487C /* MetroNet.swift */; };
 		065FDD6E2C45EB0E0010487C /* MetroNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */; };
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
+		06869FC52C4C4A2C003F847E /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FC42C4C4A2C003F847E /* Support.swift */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetTests.swift; sourceTree = "<group>"; };
 		065FDD6F2C45ED130010487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067D7D382C44AC130063734B /* AgencyKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyKey.swift; sourceTree = "<group>"; };
+		06869FC42C4C4A2C003F847E /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		06C4BF372C44B44B00197544 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		06C4BF392C44BE0E00197544 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 			children = (
 				061DCD6C2C44A34F00CEDF2F /* testStops.json */,
 				061DCD782C44A39600CEDF2F /* Helpers.swift */,
+				06869FC42C4C4A2C003F847E /* Support.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */,
 				065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */,
 				067D7D392C44AC130063734B /* AgencyKey.swift in Sources */,
+				06869FC52C4C4A2C003F847E /* Support.swift in Sources */,
 				061DCD712C44A36400CEDF2F /* Line.swift in Sources */,
 				061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */,
 				061DCD762C44A37000CEDF2F /* LocationManager.swift in Sources */,
