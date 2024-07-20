@@ -18,10 +18,27 @@
 		061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD742C44A37000CEDF2F /* StationMapView.swift */; };
 		061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD782C44A39600CEDF2F /* Helpers.swift */; };
 		061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD7A2C44A3BA00CEDF2F /* README.md */; };
+		065FDD552C45C3CE0010487C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 065FDD542C45C3CE0010487C /* Alamofire */; };
+		065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD572C45C4AE0010487C /* MetroNetRouter.swift */; };
+		065FDD602C45C95B0010487C /* MetroNetRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */; };
+		065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6B2C45D9FC0010487C /* MetroNet.swift */; };
+		065FDD6E2C45EB0E0010487C /* MetroNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */; };
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
+		06869FC52C4C4A2C003F847E /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FC42C4C4A2C003F847E /* Support.swift */; };
+		06869FC82C4C4F2A003F847E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 06869FC72C4C4F2A003F847E /* SwiftyJSON */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065FDD612C45C95B0010487C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061DCD4C2C44A13100CEDF2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061DCD532C44A13100CEDF2F;
+			remoteInfo = Metrola;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		061DCD542C44A13100CEDF2F /* Metrola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metrola.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,13 +53,29 @@
 		061DCD742C44A37000CEDF2F /* StationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationMapView.swift; sourceTree = "<group>"; };
 		061DCD782C44A39600CEDF2F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		061DCD7A2C44A3BA00CEDF2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		065FDD572C45C4AE0010487C /* MetroNetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouter.swift; sourceTree = "<group>"; };
+		065FDD5D2C45C95B0010487C /* MetrolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouterTests.swift; sourceTree = "<group>"; };
+		065FDD6B2C45D9FC0010487C /* MetroNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNet.swift; sourceTree = "<group>"; };
+		065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetTests.swift; sourceTree = "<group>"; };
+		065FDD6F2C45ED130010487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067D7D382C44AC130063734B /* AgencyKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyKey.swift; sourceTree = "<group>"; };
+		06869FC42C4C4A2C003F847E /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		06C4BF372C44B44B00197544 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		06C4BF392C44BE0E00197544 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		061DCD512C44A13100CEDF2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06869FC82C4C4F2A003F847E /* SwiftyJSON in Frameworks */,
+				065FDD552C45C3CE0010487C /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065FDD5A2C45C95B0010487C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				061DCD562C44A13100CEDF2F /* Metrola */,
+				065FDD5E2C45C95B0010487C /* MetrolaTests */,
 				061DCD552C44A13100CEDF2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				061DCD542C44A13100CEDF2F /* Metrola.app */,
+				065FDD5D2C45C95B0010487C /* MetrolaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +108,7 @@
 			children = (
 				061DCD572C44A13100CEDF2F /* MetrolaApp.swift */,
 				061DCD692C44A2F400CEDF2F /* RootView.swift */,
+				065FDD562C45C3E50010487C /* Network */,
 				061DCD702C44A36400CEDF2F /* Model */,
 				061DCD752C44A37000CEDF2F /* Map View */,
 				061DCD6B2C44A34000CEDF2F /* Support */,
@@ -80,6 +116,7 @@
 				06C4BF392C44BE0E00197544 /* testLocation.gpx */,
 				061DCD5D2C44A13200CEDF2F /* Preview Content */,
 				061DCD7A2C44A3BA00CEDF2F /* README.md */,
+				065FDD6F2C45ED130010487C /* Info.plist */,
 			);
 			path = Metrola;
 			sourceTree = "<group>";
@@ -95,8 +132,9 @@
 		061DCD6B2C44A34000CEDF2F /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				061DCD782C44A39600CEDF2F /* Helpers.swift */,
 				061DCD6C2C44A34F00CEDF2F /* testStops.json */,
+				061DCD782C44A39600CEDF2F /* Helpers.swift */,
+				06869FC42C4C4A2C003F847E /* Support.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -121,6 +159,24 @@
 			path = "Map View";
 			sourceTree = "<group>";
 		};
+		065FDD562C45C3E50010487C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				065FDD572C45C4AE0010487C /* MetroNetRouter.swift */,
+				065FDD6B2C45D9FC0010487C /* MetroNet.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		065FDD5E2C45C95B0010487C /* MetrolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */,
+				065FDD6D2C45EB0E0010487C /* MetroNetTests.swift */,
+			);
+			path = MetrolaTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +193,31 @@
 			dependencies = (
 			);
 			name = Metrola;
+			packageProductDependencies = (
+				065FDD542C45C3CE0010487C /* Alamofire */,
+				06869FC72C4C4F2A003F847E /* SwiftyJSON */,
+			);
 			productName = Metrola;
 			productReference = 061DCD542C44A13100CEDF2F /* Metrola.app */;
 			productType = "com.apple.product-type.application";
+		};
+		065FDD5C2C45C95B0010487C /* MetrolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065FDD632C45C95B0010487C /* Build configuration list for PBXNativeTarget "MetrolaTests" */;
+			buildPhases = (
+				065FDD592C45C95B0010487C /* Sources */,
+				065FDD5A2C45C95B0010487C /* Frameworks */,
+				065FDD5B2C45C95B0010487C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065FDD622C45C95B0010487C /* PBXTargetDependency */,
+			);
+			name = MetrolaTests;
+			productName = MetrolaTests;
+			productReference = 065FDD5D2C45C95B0010487C /* MetrolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -154,6 +232,10 @@
 					061DCD532C44A13100CEDF2F = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					065FDD5C2C45C95B0010487C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 061DCD532C44A13100CEDF2F;
+					};
 				};
 			};
 			buildConfigurationList = 061DCD4F2C44A13100CEDF2F /* Build configuration list for PBXProject "Metrola" */;
@@ -165,11 +247,16 @@
 				Base,
 			);
 			mainGroup = 061DCD4B2C44A13100CEDF2F;
+			packageReferences = (
+				065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 061DCD552C44A13100CEDF2F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				061DCD532C44A13100CEDF2F /* Metrola */,
+				065FDD5C2C45C95B0010487C /* MetrolaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +274,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		065FDD5B2C45C95B0010487C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,7 +290,10 @@
 			files = (
 				061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */,
 				061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */,
+				065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */,
+				065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */,
 				067D7D392C44AC130063734B /* AgencyKey.swift in Sources */,
+				06869FC52C4C4A2C003F847E /* Support.swift in Sources */,
 				061DCD712C44A36400CEDF2F /* Line.swift in Sources */,
 				061DCD6A2C44A2F400CEDF2F /* RootView.swift in Sources */,
 				061DCD762C44A37000CEDF2F /* LocationManager.swift in Sources */,
@@ -206,7 +303,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		065FDD592C45C95B0010487C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065FDD602C45C95B0010487C /* MetroNetRouterTests.swift in Sources */,
+				065FDD6E2C45EB0E0010487C /* MetroNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065FDD622C45C95B0010487C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061DCD532C44A13100CEDF2F /* Metrola */;
+			targetProxy = 065FDD612C45C95B0010487C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		061DCD602C44A13200CEDF2F /* Debug */ = {
@@ -339,6 +453,9 @@
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Metrola/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = metrola;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to allow showing nearby results on our map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -369,6 +486,9 @@
 				DEVELOPMENT_TEAM = WA3KPNE52J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Metrola/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = metrola;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to allow showing nearby results on our map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -385,6 +505,44 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		065FDD642C45C95B0010487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.MetrolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metrola.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metrola";
+			};
+			name = Debug;
+		};
+		065FDD652C45C95B0010487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WA3KPNE52J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbreidenbach.MetrolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metrola.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metrola";
 			};
 			name = Release;
 		};
@@ -409,7 +567,48 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		065FDD632C45C95B0010487C /* Build configuration list for PBXNativeTarget "MetrolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065FDD642C45C95B0010487C /* Debug */,
+				065FDD652C45C95B0010487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		065FDD542C45C3CE0010487C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		06869FC72C4C4F2A003F847E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 061DCD4C2C44A13100CEDF2F /* Project object */;
 }
