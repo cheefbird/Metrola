@@ -16,7 +16,7 @@ struct RootView: View {
                     Text("Map View")
                 }
             
-            LineBrowserView()
+            TestDataView()
                 .tabItem {
                     Image(systemName: "network")
                     Text("Lines")

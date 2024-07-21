@@ -26,7 +26,7 @@
 		067D7D392C44AC130063734B /* AgencyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D7D382C44AC130063734B /* AgencyKey.swift */; };
 		06869FC52C4C4A2C003F847E /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FC42C4C4A2C003F847E /* Support.swift */; };
 		06869FC82C4C4F2A003F847E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 06869FC72C4C4F2A003F847E /* SwiftyJSON */; };
-		06869FCB2C4C8C1B003F847E /* LineBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FCA2C4C8C1B003F847E /* LineBrowserView.swift */; };
+		06869FCB2C4C8C1B003F847E /* TestDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FCA2C4C8C1B003F847E /* TestDataView.swift */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
 /* End PBXBuildFile section */
@@ -62,7 +62,7 @@
 		065FDD6F2C45ED130010487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067D7D382C44AC130063734B /* AgencyKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyKey.swift; sourceTree = "<group>"; };
 		06869FC42C4C4A2C003F847E /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
-		06869FCA2C4C8C1B003F847E /* LineBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineBrowserView.swift; sourceTree = "<group>"; };
+		06869FCA2C4C8C1B003F847E /* TestDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataView.swift; sourceTree = "<group>"; };
 		06C4BF372C44B44B00197544 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		06C4BF392C44BE0E00197544 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,7 +183,7 @@
 		06869FC92C4C8BE0003F847E /* LineBrowserView */ = {
 			isa = PBXGroup;
 			children = (
-				06869FCA2C4C8C1B003F847E /* LineBrowserView.swift */,
+				06869FCA2C4C8C1B003F847E /* TestDataView.swift */,
 			);
 			path = LineBrowserView;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 				061DCD762C44A37000CEDF2F /* LocationManager.swift in Sources */,
 				061DCD582C44A13100CEDF2F /* MetrolaApp.swift in Sources */,
 				061DCD722C44A36400CEDF2F /* Station.swift in Sources */,
-				06869FCB2C4C8C1B003F847E /* LineBrowserView.swift in Sources */,
+				06869FCB2C4C8C1B003F847E /* TestDataView.swift in Sources */,
 				06C4BF382C44B44B00197544 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
