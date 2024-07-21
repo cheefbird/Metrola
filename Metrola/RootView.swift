@@ -16,17 +16,13 @@ struct RootView: View {
                     Text("Map View")
                 }
             
-            Text("TODO: Station List View")
-                .padding(.horizontal, 10)
-                .background(.blue)
+            LineBrowserView()
                 .tabItem {
-                    Image(systemName: "house.and.flag.circle")
-                    Text("Stations")
+                    Image(systemName: "network")
+                    Text("Lines")
                 }
             
             Text("TODO: User Setings")
-                .padding(.horizontal, 10)
-                .background(.green)
                 .tabItem {
                     Image(systemName: "gearshape")
                     Text("Settings")
