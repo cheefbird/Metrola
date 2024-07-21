@@ -13,15 +13,17 @@ final class MetroNetRouterTests: XCTestCase {
 
     override func tearDownWithError() throws {}
 
-    func testRouterReuest() throws {
+    func testGetLinesReturnsCorrectURL() throws {
         let request = try! MetroNetRouter.getLines.asURLRequest()
         XCTAssertTrue(request.description == "https://api.goswift.ly/info/lametro-rail/routes")
     }
+    
+    func testGetStationsReturnsCorrectURL() throws {
+        let request = try MetroNetRouter.getStations(801).asURLRequest()
+        XCTAssertEqual(
+            request.description,
+            "https://api.goswift.ly/info/lametro-rail/routes?route=801&verbose=true"
+        )
+    }
 
-//    func testPerformanceExample() throws {
-//        // This is an example of a performance test case.
-//        measure {
-//            // Put the code you want to measure the time of here.
-//        }
-//    }
 }
