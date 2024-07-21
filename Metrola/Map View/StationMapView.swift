@@ -52,7 +52,6 @@ struct StationMapView: View {
             position = .automatic
         }
         .onMapCameraChange { context in
-            MetroNet.shared.getLines()
             visibleRegion = context.region
         }
         
