@@ -7,22 +7,25 @@
 
 import Foundation
 import MapKit
+import SwiftyJSON
 
-struct Station: Codable, Hashable, Identifiable {
-    var id: String
-    var name: String
-    var code: Int
-    var latitude: Double
-    var longitude: Double
-    var lineID = ""
-    var directionID = ""
+struct Station {
+    let id: Int
+    let name: String
+    let code: Int
+    let latitude: Double
+    let longitude: Double
+    var lineID = [Int]()
     
-    enum CodingKeys: String, CodingKey {
-        case id
-        case name
-        case code
-        case latitude = "lat"
-        case longitude = "lon"
+    init(forLine line: Int? , fromJSON json: JSON) {
+        self.id = json["id"].intValue
+        self.name = json["name"].stringValue
+        self.code = json["code"].intValue
+        self.latitude = json["lat"].doubleValue
+        self.longitude = json["lon"].doubleValue
+        if let line {
+            self.lineID.append(line)
+        }
     }
     
     lazy var coordinates: CLLocationCoordinate2D = {
@@ -30,4 +33,4 @@ struct Station: Codable, Hashable, Identifiable {
     }()
 }
 
-
+extension Station: Identifiable, Equatable {}
