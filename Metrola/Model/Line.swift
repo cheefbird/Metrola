@@ -25,3 +25,5 @@ struct Line {
         self.type = json["type"].intValue
     }
 }
+
+extension Line: Identifiable, Equatable {}
