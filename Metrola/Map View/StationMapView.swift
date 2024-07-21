@@ -24,12 +24,11 @@ struct StationMapView: View {
     @State private var position: MapCameraPosition = .automatic
     @State private var visibleRegion: MKCoordinateRegion?
     @State private var selectedStation: MKMapItem?
-
-    let stops = Bundle.main.decode([Station].self, from: "testStops.json")
+    @State private var stations = [Station]()
 
     var body: some View {
         Map(position: $position, selection: $selectedStation) {
-            ForEach(stops) { stop in
+            ForEach(stations) { stop in
                 Annotation(stop.name, coordinate: stopCoordinates(for: stop)) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 5)
@@ -48,7 +47,7 @@ struct StationMapView: View {
                 
         }
         .tint(Color.seaGreen)
-        .onChange(of: stops) {
+        .onChange(of: stations) {
             position = .automatic
         }
         .onMapCameraChange { context in
