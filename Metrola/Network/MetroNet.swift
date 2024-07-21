@@ -20,16 +20,29 @@ class MetroNet {
             .validate()
             .responseData { response in
                 guard let data = response.value else {
-                    fatalError()
+                    fatalError("getLines response broken")
                 }
-                let lines = self.processLines(from: data)
+                let lines = self.buildLinesArray(from: data)
                 
                 completion(lines)
             }
     }
     
+    func getStations(forLineID lineID: Int, completion: @escaping ([Station]) -> Void) {
+        AF.request(MetroNetRouter.getStations(lineID))
+            .validate()
+            .responseData { response in
+                guard let data = response.value else {
+                    fatalError("getStations response broken")
+                }
+                let stations = self.buildStationsArray(from: data)
+                
+                completion(stations)
+            }
+    }
+    
     // MARK: - Handlers
-    private func processLines(from data: Data) -> [Line] {
+    private func buildLinesArray(from data: Data) -> [Line] {
         var lines = [Line]()
         
         do {
@@ -43,5 +56,11 @@ class MetroNet {
         }
         
         return lines
+    }
+    
+    private func buildStationsArray(from data: Data) -> [Station] {
+        var stations = [Station]()
+        // TODO: encoding to array
+        return stations
     }
 }
