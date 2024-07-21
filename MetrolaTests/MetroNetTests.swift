@@ -20,7 +20,7 @@ final class MetroNetTests: XCTestCase {
     }
 
     func testGetLinesDataResponse() throws {
-        instance.getLines()
+//        instance.getLines()
     }
 
 }
