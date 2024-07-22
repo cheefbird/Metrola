@@ -45,7 +45,7 @@ struct TestDataView: View {
         }
 
         .onAppear {
-            if lines.isEmpty {
+            if try! modelContext.fetchCount(FetchDescriptor<Line>()) < 1 {
                 MetroNet.shared.getLines { results in
                     for line in results {
                         modelContext.insert(line)
@@ -53,7 +53,7 @@ struct TestDataView: View {
                 }
             }
             
-            if stations.isEmpty {
+            if try! modelContext.fetchCount(FetchDescriptor<Station>()) < 1 {
                 MetroNet.shared.getStations(forLineID: 801) { results in
                     for station in results {
                         modelContext.insert(station)
