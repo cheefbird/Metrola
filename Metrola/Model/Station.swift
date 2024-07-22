@@ -7,15 +7,17 @@
 
 import Foundation
 import SwiftyJSON
+import SwiftData
 
-struct Station: Decodable {
-    let id: Int
+@Model
+class Station {
+    @Attribute(.unique) let id: Int
     let name: String
     let code: Int
-    let latitude: Double
-    let longitude: Double
+    var latitude: Double
+    var longitude: Double
     var lineID = [Int]()
-           
+        
     init(forLine line: Int? , fromJSON json: JSON) {
         self.id = json["id"].intValue
         self.name = json["name"].stringValue
