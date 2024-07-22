@@ -28,6 +28,6 @@ extension Bundle {
     }
 }
 
-func stopCoordinates(for stop: Station) -> CLLocationCoordinate2D {
+func stationCoordinates(for stop: Station) -> CLLocationCoordinate2D {
     return CLLocationCoordinate2D(latitude: stop.latitude, longitude: stop.longitude)
 }
