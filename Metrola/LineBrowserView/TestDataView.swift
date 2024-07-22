@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct TestDataView: View {
-    @State private var lines = [Line]()
-    @State private var stations = [Station]()
+    @Environment(\.modelContext) var modelContext
+    
+    @Query var lines: [Line]
+    @Query var stations: [Station]
+    
     @State private var selectedPage = "Lines"
 
     let pages = ["Lines", "Stations"]
@@ -38,17 +42,23 @@ struct TestDataView: View {
                         }
                 }
             }
-            .toolbar {
-                
-            }
         }
 
         .onAppear {
-            MetroNet.shared.getLines { lines in
-                self.lines = lines
+            if lines.isEmpty {
+                MetroNet.shared.getLines { results in
+                    for line in results {
+                        modelContext.insert(line)
+                    }
+                }
             }
-            MetroNet.shared.getStations(forLineID: 801) { stations in
-                self.stations = stations
+            
+            if stations.isEmpty {
+                MetroNet.shared.getStations(forLineID: 801) { results in
+                    for station in results {
+                        modelContext.insert(station)
+                    }
+                }
             }
         }
     }
