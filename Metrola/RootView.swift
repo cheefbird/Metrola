@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct RootView: View {
+    @Environment(\.modelContext) var modelContext
+    
     var body: some View {
         TabView {
             StationMapView()
