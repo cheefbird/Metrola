@@ -6,59 +6,84 @@
 //
 
 import MapKit
+import SwiftData
 import SwiftUI
 
 extension MKCoordinateRegion {
     static let losAngeles = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
             latitude: 34.04869,
-            longitude: -118.25864),
+            longitude: -118.25864
+        ),
         span: MKCoordinateSpan(
-            latitudeDelta: 0.1,
-            longitudeDelta: 0.1))
+            latitudeDelta: 0.3,
+            longitudeDelta: 0.3
+        )
+    )
 }
 
 struct StationMapView: View {
+    @Environment(\.modelContext) var modelContext
     @StateObject var locationManager = LocationManager()
 
-    @State private var position: MapCameraPosition = .automatic
+    @Query var stations: [Station]
+
+    @State private var position: MapCameraPosition = .region(.losAngeles)
     @State private var visibleRegion: MKCoordinateRegion?
     @State private var selectedStation: MKMapItem?
 
-    let stops = Bundle.main.decode([Station].self, from: "testStops.json")
-
     var body: some View {
-        Map(position: $position, selection: $selectedStation) {
-            ForEach(stops) { stop in
-                Annotation(stop.name, coordinate: stopCoordinates(for: stop)) {
+        Map(
+            position: $position,
+            interactionModes: [.pan, .zoom, .pitch],
+            selection: $selectedStation
+        ) {
+            ForEach(stations) { station in
+                Annotation(station.name, coordinate: stationCoordinates(for: station)) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 5)
                             .fill(Color("oldYellow"))
                         RoundedRectangle(cornerRadius: 5)
-                            .stroke(.secondary, lineWidth: 5)
-                        Image(systemName: "lightrail")
-                            .padding(5)
+                            .stroke(.secondary, lineWidth: 1)
+                        Image("railLine/a")
+                            .resizable()
+                            .frame(maxWidth: 20, maxHeight: 20)
+                            .scaledToFit()
+
                     }
                 }
             }
+//            let coordinates = coordinatesArray()
+//
+//            MapPolyline(coordinates: coordinates, contourStyle: .geodesic)
+//                .stroke(.oldYellow, lineWidth: 5)
         }
         .mapStyle(.standard(elevation: .realistic))
         .mapControls {
             MapUserLocationButton()
-                
-        }
-        .tint(Color.seaGreen)
-        .onChange(of: stops) {
-            position = .automatic
         }
         .onMapCameraChange { context in
-            MetroNet.shared.getLines()
             visibleRegion = context.region
+            position = .region(context.region)
         }
-        
+    }
+
+    func coordinatesArray() -> [CLLocationCoordinate2D] {
+        var coordinates = [CLLocationCoordinate2D]()
+        for station in stations {
+            coordinates.append(stationCoordinates(for: station))
+        }
+        return coordinates
     }
 }
 
 #Preview {
-    StationMapView()
+    let config = ModelConfiguration(isStoredInMemoryOnly: true)
+    let container = try! ModelContainer(for: Station.self, configurations: config)
+
+    let stations = Bundle.main.decode([Station].self, from: "testStops.json")
+    for station in stations {
+        container.mainContext.insert(station)
+    }
+    return StationMapView().modelContainer(container)
 }

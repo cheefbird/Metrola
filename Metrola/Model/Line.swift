@@ -7,14 +7,16 @@
 
 import Foundation
 import SwiftyJSON
+import SwiftData
 
 /// Note: Appears as "route" from source API
-struct Line {
-    var id: Int
-    var name: String
-    var color: String
-    var type: Int
-    var directions = [String: String]()
+@Model
+class Line {
+    @Attribute(.unique) let id: Int
+    let name: String
+    let color: String
+    let type: Int
+//    var stations = [Station]()
     
     /// Create Line from JSON type.
     init(fromJSON json: JSON) {
@@ -23,5 +25,11 @@ struct Line {
         let rawColor = json["color"].stringValue
         self.color = "#\(rawColor)"
         self.type = json["type"].intValue
+    }
+}
+
+extension Line: Identifiable, Equatable {
+    static func == (lhs: Line, rhs: Line) -> Bool {
+        return lhs.id == rhs.id
     }
 }

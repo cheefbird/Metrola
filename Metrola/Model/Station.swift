@@ -6,16 +6,17 @@
 //
 
 import Foundation
-import MapKit
+import SwiftyJSON
+import SwiftData
 
-struct Station: Codable, Hashable, Identifiable {
-    var id: String
-    var name: String
-    var code: Int
+@Model
+class Station: Decodable {
+    @Attribute(.unique) let id: Int
+    let name: String
+    let code: Int
     var latitude: Double
     var longitude: Double
-    var lineID = ""
-    var directionID = ""
+    var lineID = [Int]()
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -25,9 +26,25 @@ struct Station: Codable, Hashable, Identifiable {
         case longitude = "lon"
     }
     
-    lazy var coordinates: CLLocationCoordinate2D = {
-        return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
-    }()
+    required init(from decoder: any Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decode(Int.self, forKey: .id)
+        name = try container.decode(String.self, forKey: .name)
+        code = try container.decode(Int.self, forKey: .code)
+        latitude = try container.decode(Double.self, forKey: .latitude)
+        longitude = try container.decode(Double.self, forKey: .longitude)
+    }
+        
+    init(forLine line: Int? , fromJSON json: JSON) {
+        self.id = json["id"].intValue
+        self.name = json["name"].stringValue
+        self.code = json["code"].intValue
+        self.latitude = json["lat"].doubleValue
+        self.longitude = json["lon"].doubleValue
+        if let line {
+            self.lineID.append(line)
+        }
+    }
 }
 
-
+//extension Station: Identifiable, Equatable {}
