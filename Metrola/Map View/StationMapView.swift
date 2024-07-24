@@ -47,16 +47,16 @@ struct StationMapView: View {
                             .stroke(.secondary, lineWidth: 1)
                         Image("railLine/a")
                             .resizable()
-                            .frame(maxWidth: 10, maxHeight: 10)
+                            .frame(maxWidth: 20, maxHeight: 20)
                             .scaledToFit()
-//                            .padding(5)
+
                     }
                 }
             }
-            let coordinates = coordinatesArray()
-
-            MapPolyline(coordinates: coordinates, contourStyle: .geodesic)
-                .stroke(.oldYellow, lineWidth: 5)
+//            let coordinates = coordinatesArray()
+//
+//            MapPolyline(coordinates: coordinates, contourStyle: .geodesic)
+//                .stroke(.oldYellow, lineWidth: 5)
         }
         .mapStyle(.standard(elevation: .realistic))
         .mapControls {
