@@ -31,6 +31,7 @@
 		06869FCB2C4C8C1B003F847E /* TestDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06869FCA2C4C8C1B003F847E /* TestDataView.swift */; };
 		06C4BF382C44B44B00197544 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4BF372C44B44B00197544 /* Direction.swift */; };
 		06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 06C4BF392C44BE0E00197544 /* testLocation.gpx */; };
+		06EBA33B2C53039B00DDC21C /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 06EBA33A2C53039B00DDC21C /* BottomSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06869FC82C4C4F2A003F847E /* SwiftyJSON in Frameworks */,
+				06EBA33B2C53039B00DDC21C /* BottomSheet in Frameworks */,
 				065FDD552C45C3CE0010487C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +215,7 @@
 			packageProductDependencies = (
 				065FDD542C45C3CE0010487C /* Alamofire */,
 				06869FC72C4C4F2A003F847E /* SwiftyJSON */,
+				06EBA33A2C53039B00DDC21C /* BottomSheet */,
 			);
 			productName = Metrola;
 			productReference = 061DCD542C44A13100CEDF2F /* Metrola.app */;
@@ -267,6 +270,7 @@
 			packageReferences = (
 				065FDD532C45C3CE0010487C /* XCRemoteSwiftPackageReference "Alamofire" */,
 				06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				06EBA3392C53039B00DDC21C /* XCRemoteSwiftPackageReference "BottomSheet" */,
 			);
 			productRefGroup = 061DCD552C44A13100CEDF2F /* Products */;
 			projectDirPath = "";
@@ -615,6 +619,14 @@
 				minimumVersion = 5.0.2;
 			};
 		};
+		06EBA3392C53039B00DDC21C /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -627,6 +639,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 06869FC62C4C4F2A003F847E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		06EBA33A2C53039B00DDC21C /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06EBA3392C53039B00DDC21C /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
