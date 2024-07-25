@@ -29,7 +29,7 @@ class Line: Decodable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         id = try container.decode(Int.self, forKey: .id)
         name = try container.decode(String.self, forKey: .name)
-        var preColor = try container.decode(String.self, forKey: .color)
+        let preColor = try container.decode(String.self, forKey: .color)
         color = "#\(preColor)"
         type = try container.decode(Int.self, forKey: .type)
     }

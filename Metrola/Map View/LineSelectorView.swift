@@ -17,7 +17,7 @@ struct LineSelectorView: View {
 
     let types = ["Lines", "Stations"]
 
-    private var gridItemLayout = [GridItem(.flexible()), GridItem(.flexible())]
+    private var gridItemLayout = [GridItem(.flexible())]
 
     var body: some View {
         VStack {
@@ -28,10 +28,10 @@ struct LineSelectorView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-                .padding(.top, 10)
+                .padding(.top, 15)
             }
-            ScrollView {
-                LazyVGrid(columns: gridItemLayout, spacing: 20) {
+            ScrollView(.horizontal, showsIndicators: true) {
+                LazyHGrid(rows: gridItemLayout, spacing: 15) {
                     ForEach(lines) {
                         Image("railLine/\($0.id)")
                             .resizable()
@@ -41,7 +41,9 @@ struct LineSelectorView: View {
                             .cornerRadius(10)
                     }
                 }
+                
             }
+            Spacer()
         }
     }
 }
