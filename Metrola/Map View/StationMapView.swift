@@ -31,13 +31,13 @@ struct StationMapView: View {
     @State private var position: MapCameraPosition = .region(.losAngeles)
     @State private var visibleRegion: MKCoordinateRegion?
     @State private var selectedStation: MKMapItem?
+    @State private var showSheet = true
 
     var body: some View {
-        Map(
-            position: $position,
+        Map(position: $position,
             interactionModes: [.pan, .zoom, .pitch],
-            selection: $selectedStation
-        ) {
+            selection: $selectedStation)
+        {
             ForEach(stations) { station in
                 Annotation(station.name, coordinate: stationCoordinates(for: station)) {
                     ZStack {
@@ -45,26 +45,26 @@ struct StationMapView: View {
                             .fill(Color("oldYellow"))
                         RoundedRectangle(cornerRadius: 5)
                             .stroke(.secondary, lineWidth: 1)
-                        Image("railLine/a")
+                        Image("railLine/801")
                             .resizable()
                             .frame(maxWidth: 20, maxHeight: 20)
                             .scaledToFit()
-
                     }
                 }
             }
-//            let coordinates = coordinatesArray()
-//
-//            MapPolyline(coordinates: coordinates, contourStyle: .geodesic)
-//                .stroke(.oldYellow, lineWidth: 5)
         }
         .mapStyle(.standard(elevation: .realistic))
         .mapControls {
             MapUserLocationButton()
+            Button("label") {}
         }
         .onMapCameraChange { context in
             visibleRegion = context.region
             position = .region(context.region)
+        }
+        .sheet(isPresented: $showSheet) {
+            LineSelectorView()
+                .presentationDetents([.fraction(0.2), .medium])
         }
     }
 
