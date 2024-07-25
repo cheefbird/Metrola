@@ -18,6 +18,7 @@
 		061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD742C44A37000CEDF2F /* StationMapView.swift */; };
 		061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD782C44A39600CEDF2F /* Helpers.swift */; };
 		061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD7A2C44A3BA00CEDF2F /* README.md */; };
+		0659ABEE2C51D75800CF20CE /* testLines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0659ABED2C51D75800CF20CE /* testLines.json */; };
 		065FDD552C45C3CE0010487C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 065FDD542C45C3CE0010487C /* Alamofire */; };
 		065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD572C45C4AE0010487C /* MetroNetRouter.swift */; };
 		065FDD602C45C95B0010487C /* MetroNetRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */; };
@@ -54,6 +55,7 @@
 		061DCD742C44A37000CEDF2F /* StationMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationMapView.swift; sourceTree = "<group>"; };
 		061DCD782C44A39600CEDF2F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		061DCD7A2C44A3BA00CEDF2F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0659ABED2C51D75800CF20CE /* testLines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testLines.json; sourceTree = "<group>"; };
 		065FDD572C45C4AE0010487C /* MetroNetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouter.swift; sourceTree = "<group>"; };
 		065FDD5D2C45C95B0010487C /* MetrolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065FDD5F2C45C95B0010487C /* MetroNetRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroNetRouterTests.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		061DCD6B2C44A34000CEDF2F /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				0659ABED2C51D75800CF20CE /* testLines.json */,
 				061DCD6C2C44A34F00CEDF2F /* testStops.json */,
 				061DCD782C44A39600CEDF2F /* Helpers.swift */,
 				06869FC42C4C4A2C003F847E /* Support.swift */,
@@ -282,6 +285,7 @@
 				06C4BF3A2C44BE0E00197544 /* testLocation.gpx in Resources */,
 				061DCD7B2C44A3BA00CEDF2F /* README.md in Resources */,
 				061DCD5F2C44A13200CEDF2F /* Preview Assets.xcassets in Resources */,
+				0659ABEE2C51D75800CF20CE /* testLines.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
