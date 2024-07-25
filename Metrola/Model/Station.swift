@@ -11,9 +11,9 @@ import SwiftData
 
 @Model
 class Station: Decodable {
-    @Attribute(.unique) let id: Int
-    let name: String
-    let code: Int
+    @Attribute(.unique) var id: Int
+    var name: String
+    var code: Int
     var latitude: Double
     var longitude: Double
     var lineID = [Int]()

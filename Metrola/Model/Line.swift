@@ -12,10 +12,10 @@ import SwiftData
 /// Note: Appears as "route" from source API
 @Model
 class Line: Decodable {
-    @Attribute(.unique) let id: Int
-    let name: String
-    let color: String
-    let type: Int
+    @Attribute(.unique) var id: Int
+    var name: String
+    var color: String
+    var type: Int
 //    var stations = [Station]()
     
     enum CodingKeys: String, CodingKey {
