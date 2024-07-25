@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06103F312C50BF1A00640159 /* LineSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06103F302C50BF1A00640159 /* LineSelectorView.swift */; };
 		061DCD582C44A13100CEDF2F /* MetrolaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCD572C44A13100CEDF2F /* MetrolaApp.swift */; };
 		061DCD5F2C44A13200CEDF2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD5E2C44A13200CEDF2F /* Preview Assets.xcassets */; };
 		061DCD662C44A22E00CEDF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061DCD652C44A22E00CEDF2F /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06103F302C50BF1A00640159 /* LineSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineSelectorView.swift; sourceTree = "<group>"; };
 		061DCD542C44A13100CEDF2F /* Metrola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metrola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061DCD572C44A13100CEDF2F /* MetrolaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrolaApp.swift; sourceTree = "<group>"; };
 		061DCD5E2C44A13200CEDF2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				061DCD732C44A37000CEDF2F /* LocationManager.swift */,
 				061DCD742C44A37000CEDF2F /* StationMapView.swift */,
+				06103F302C50BF1A00640159 /* LineSelectorView.swift */,
 			);
 			path = "Map View";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				061DCD772C44A37000CEDF2F /* StationMapView.swift in Sources */,
 				061DCD792C44A39600CEDF2F /* Helpers.swift in Sources */,
 				065FDD582C45C4AE0010487C /* MetroNetRouter.swift in Sources */,
+				06103F312C50BF1A00640159 /* LineSelectorView.swift in Sources */,
 				065FDD6C2C45D9FC0010487C /* MetroNet.swift in Sources */,
 				067D7D392C44AC130063734B /* AgencyKey.swift in Sources */,
 				06869FC52C4C4A2C003F847E /* Support.swift in Sources */,
