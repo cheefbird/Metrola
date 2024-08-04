@@ -9,52 +9,66 @@ import SwiftData
 import SwiftUI
 
 struct LineSelectorView: View {
-    @Environment(\.modelContext) var modelContext
+  @Environment(\.modelContext) var modelContext
 
-    @Query var lines: [Line]
+  @Query(sort: \Line.name) var lines: [Line]
 
-    @State private var typeSelection = "Lines"
+//    @Binding var selectedLine: Line
 
-    let types = ["Lines", "Stations"]
+  @State private var typeSelection = "Lines"
 
-    private var gridItemLayout = [GridItem(.flexible())]
+  let types = ["Lines", "Stations"]
 
-    var body: some View {
-        VStack {
-            Section {
-                Picker("Options", selection: $typeSelection) {
-                    ForEach(types, id: \.self) {
-                        Text($0)
-                    }
-                }
-                .pickerStyle(.segmented)
-                .padding(.top, 15)
-            }
-            ScrollView(.horizontal, showsIndicators: true) {
-                LazyHGrid(rows: gridItemLayout, spacing: 15) {
-                    ForEach(lines) {
-                        Image("railLine/\($0.id)")
-                            .resizable()
-                            .font(.system(size: 30))
-                            .frame(width: 50, height: 50)
-                            .background(Color.eggWhite)
-                            .cornerRadius(10)
-                    }
-                }
-                
-            }
-            Spacer()
+  private var gridItemLayout = [GridItem(.flexible())]
+
+  var body: some View {
+    VStack(spacing: 0) {
+      Group {
+        Picker("Options", selection: $typeSelection) {
+          ForEach(types, id: \.self) {
+            Text($0)
+          }
         }
+        .pickerStyle(.segmented)
+      }
+      Group {
+        ScrollView(.vertical, showsIndicators: false) {
+          LazyVGrid(columns: gridItemLayout, alignment: .center, spacing: 15) {
+            ForEach(lines) { line in
+              Button {
+                print("button pressed")
+              } label: {
+                HStack {
+                  Image("railLine/\(line.id)")
+                    .resizable()
+                    .font(.system(size: 30))
+                    .frame(width: 75, height: 75)
+
+                  Text(line.name)
+                    .font(.title)
+                    .foregroundStyle(.black)
+                }
+                .padding(.horizontal)
+                .background(Color.eggWhite)
+                .cornerRadius(10)
+              }
+            }
+          }
+        }
+        .padding(.top, 10)
+      }
     }
+  }
 }
 
 #Preview {
-    let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    let container = try! ModelContainer(for: Line.self, configurations: config)
+  let config = ModelConfiguration(isStoredInMemoryOnly: true)
+  let container = try! ModelContainer(for: Line.self, configurations: config)
 
-    let stations = Bundle.main.decode([Line].self, from: "testLines.json")
-    for station in stations {
-        container.mainContext.insert(station)
-    }
-    return LineSelectorView().modelContainer(container)
+  let stations = Bundle.main.decode([Line].self, from: "testLines.json")
+  for station in stations {
+    container.mainContext.insert(station)
+  }
+
+  return LineSelectorView().modelContainer(container)
 }
