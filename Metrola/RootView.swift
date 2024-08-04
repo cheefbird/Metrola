@@ -5,34 +5,41 @@
 //  Created by Francis Breidenbach on 7/5/24.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 struct RootView: View {
-    
-    var body: some View {
-        TabView {
-            StationMapView()
-                .tabItem {
-                    Image(systemName: "map.circle")
-                    Text("Map View")
-                }
-            
-            TestDataView()
-                .tabItem {
-                    Image(systemName: "network")
-                    Text("Lines")
-                }
-            
-            Text("TODO: User Setings")
-                .tabItem {
-                    Image(systemName: "gearshape")
-                    Text("Settings")
-                }
+  var body: some View {
+    TabView {
+      StationMapView()
+        .tabItem {
+          Image(systemName: "map.circle")
+          Text("Map View")
+        }
+
+      TestDataView()
+        .tabItem {
+          Image(systemName: "network")
+          Text("Lines")
+        }
+
+      Text("TODO: User Setings")
+        .tabItem {
+          Image(systemName: "gearshape")
+          Text("Settings")
         }
     }
+  }
 }
 
 #Preview {
-    RootView()
+  let config = ModelConfiguration(isStoredInMemoryOnly: true)
+  let container = try! ModelContainer(for: Line.self, configurations: config)
+  
+  let stations = Bundle.main.decode([Line].self, from: "testLines.json")
+  for station in stations {
+    container.mainContext.insert(station)
+  }
+  
+  return RootView().modelContainer(container)
 }
